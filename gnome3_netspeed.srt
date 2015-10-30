@@ -1,0 +1,55 @@
+1
+00:00:05,000 --> 00:00:10,900
+Hallo - Gnome3 - Die Erweiterung NetSpeed
+
+2
+00:00:11,000 --> 00:00:20,900
+NetSpeed ist eine Gnome Shell Extension und zu finden auf dieser Webseite (extensions.gnome.org)
+
+3
+00:00:21,000 --> 00:00:24,900
+NetSpeed ist aehnlich wie NetMonitor Lite
+
+4
+00:00:25,000 --> 00:00:28,900
+es wird die aktuelle Bandbreite des Netzes angezeigt
+
+5
+00:00:29,000 --> 00:00:41,900
+man sucht einfach nach NetSpeed, klickt auf NetSpeed, und dann klickt man auf den Schalter sodass ON erscheint
+
+6
+00:00:42,000 --> 00:00:55,900
+wartet eine Weile, abschliessend klickt man auf den Button Installieren und schon ist die Erweiterung da
+
+7
+00:00:58,000 --> 00:01:05,900
+zu finden ist die Erweiterung im versteckten Ordner .local
+
+8
+00:01:06,000 --> 00:01:11,900
+erstmal alle versteckten Dateien sichtbar machen durch Ansicht - Verborgene Dateien anzeigen
+
+9
+00:01:12,000 --> 00:01:20,900
+.local - Share - gnome-shell - extensions, und hier ist die Erweiterung NetSpeed
+
+10
+00:01:21,000 --> 00:01:24,900
+Aenderungen sind moeglich
+
+11
+00:01:25,000 --> 00:01:30,900
+geloescht wird die Erweiterung indem man einfach das Verzeichnis loescht
+
+12
+00:01:31,000 --> 00:01:38,900
+und dann einen Neustart einleitet, z.B. durch Alt+F2 r
+
+13
+00:01:39,000 --> 00:01:41,900
+Tschau und viel Glueck
+
+14
+00:01:42,000 --> 00:01:42,001
+Dieses Dokument steht unter der Lizenz: http://creativecommons.org/licenses/by/3.0/

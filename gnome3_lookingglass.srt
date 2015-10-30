@@ -1,0 +1,127 @@
+1
+00:00:05,000 --> 00:00:09,900
+Hallo - Gnome3 - Looking Glass
+
+2
+00:00:10,000 --> 00:00:12,900
+Looking Glass ist ein Inspektor-Tool von Gnome-Shell
+
+3
+00:00:13,000 --> 00:00:16,900
+bzw. eine Javascript-Konsole fuer die Fehlersuche
+
+4
+00:00:17,000 --> 00:00:23,900
+Gestartet wird das Tool durch Alt+F2 und die Eingabe lg
+
+5
+00:00:24,000 --> 00:00:26,900
+Beendet wird die Konsole durch ESC
+
+6
+00:00:27,000 --> 00:00:36,900
+Es existieren 5 Areale (Evaluator, Windows, Errors, Memory, Extensions)
+
+7
+00:00:37,000 --> 00:00:42,900
+Der Evaluator ist ein interaktiver Javascript-Dialog
+
+8
+00:00:43,000 --> 00:00:47,900
+Einfache Rechenaufgaben koennen an dieser Stelle z.B. ausgefuehrt werden
+
+9
+00:00:48,000 --> 00:00:51,900
+1+2 oder 2+3 z.B.
+
+10
+00:00:52,000 --> 00:01:03,900
+Jedes Ergebnis wird gespeichert und kann wieder ausgegeben werden durch r(Nr)
+
+11
+00:01:04,000 --> 00:01:12,900
+r(0) - so gibt es die Ausgabe 3 - oder r(1) - hier gibt es die Ausgabe 5
+
+12
+00:01:13,000 --> 00:01:21,900
+so kann man auch rechnen z.B. r(0) + r(1) = 8
+
+13
+00:01:22,000 --> 00:01:25,900
+Eine History-Funktion besteht
+
+14
+00:01:26,000 --> 00:01:29,900
+Das bedeutet durch die Cursor-Tasten Hoch und Runter kann man zwischen den Eingaben
+
+15
+00:01:30,000 --> 00:01:34,900
+die man schon getaetigt hat, hin- und herspringen
+
+16
+00:01:35,000 --> 00:01:46,900
+Gespeichert wird die History unter dem dconf-Eintrag /org/gnome/shell/looking-glass-history
+
+17
+00:01:47,000 --> 00:01:56,900
+Ich beende die Konsole mit ESC, starte ein Terminal, starte den dconf-editor
+
+18
+00:01:57,000 --> 00:02:07,900
+Der richtige Eintrag ist zu finden unter /org/gnome/shell/looking-glass-history
+
+19
+00:02:08,000 --> 00:02:16,900
+Durch die Vergabe von False beim Eintrag /org/gnome/shell/development-tools
+
+20
+00:02:17,000 --> 00:02:29,900
+kann Looking Glass deaktiviert werden - und lg funktioniert nicht mehr
+
+21
+00:02:30,000 --> 00:02:35,900
+Natuerlich kann man das auch wieder rueckgaengig machen indem man den Wert true vergibt
+
+22
+00:02:37,000 --> 00:02:40,900
+so funktioniert Looking Glass wieder
+
+23
+00:02:43,000 --> 00:02:50,900
+Die Fenster werden unter Windows aufgelistet
+
+24
+00:02:51,000 --> 00:03:00,900
+Unter Errors findet man eine Ansicht fuer die Shell-Log-Nachrichten
+
+25
+00:03:01,000 --> 00:03:25,900
+Eine eigene Meldung kann durch die Eingabe global.log('Meldung') hinzugefuegt werden
+
+26
+00:03:27,000 --> 00:03:29,900
+und hier ist jetzt die Meldung
+
+27
+00:03:33,000 --> 00:03:37,900
+Speicherinformationen enthaelt der Bereich Memory
+
+28
+00:03:38,000 --> 00:03:44,900
+Unter Extensions werden die Erweiterungen angezeigt
+
+29
+00:03:48,000 --> 00:04:16,900
+Die definierten Funktionen von Looking Glass findet man in der Datei /usr/share/gnome-shell/js/ui/LookingGlass.js
+
+30
+00:04:17,000 --> 00:04:40,900
+Das Aussehen von Looking Glass kann man veraendern in der Datei /usr/share/gnome-shell/theme/gnome-shell.css im Bereich /* Looking Glass */
+
+31
+00:04:44,000 --> 00:04:46,900
+Tschau und viel Glueck
+
+32
+00:04:47,000 --> 00:04:47,001
+Dieses Dokument steht unter der Lizenz: http://creativecommons.org/licenses/by/3.0/
