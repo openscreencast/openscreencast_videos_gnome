@@ -1,0 +1,107 @@
+1
+00:00:05,000 --> 00:00:10,900
+Hallo - Herzlich Willkommen - In diesem Screencast dreht sich alles um Sushi
+
+2
+00:00:11,000 --> 00:00:16,900
+Sushi ist eine schnelle Dateivorschau - neu seit Gnome 3.2
+
+3
+00:00:17,000 --> 00:00:22,900
+Sobald man im Dateimanager eine Datei ob Bild, Video, pdf, Text, Audio anklickt
+
+4
+00:00:23,000 --> 00:00:26,900
+und dann die Leertaste (Space) drueckt kommt sushi zum Vorschein
+
+5
+00:00:27,000 --> 00:00:32,900
+Unterschiedliche Funktionen, es kommt halt auf den Inhalt drauf an, stehen zur Verfuegung
+
+6
+00:00:33,000 --> 00:00:41,900
+z.B. hier bei einer Bilddatei oder bei einer Videodatei - anklicken und Leertaste druecken
+
+7
+00:00:45,000 --> 00:00:50,900
+oder bei einer Textdatei
+
+8
+00:00:51,000 --> 00:00:57,900
+Sushi kann auch entfernt werden, wer diese schnelle Dateivorschau nicht moechte
+
+9
+00:00:58,000 --> 00:01:15,900
+per Befehl - ein Terminal oeffnen - per su -c "yum remove sushi" ENTER - Passwort eingeben
+
+10
+00:01:16,000 --> 00:01:32,900
+Mittels su -c "yum install sushi" kann das Paket wieder installiert werden
+
+11
+00:01:34,000 --> 00:01:42,900
+Wo befindet sich sushi ? whereis sushi ENTER
+
+12
+00:01:43,000 --> 00:01:48,900
+Die Funktionen in Javascript und die Einstellungen findet man
+
+13
+00:01:49,000 --> 00:02:03,900
+im Verzeichnis /usr/share/sushi
+
+14
+00:02:04,000 --> 00:02:12,900
+Durch die Bearbeitung der Datei gtk-style.css unter style
+
+15
+00:02:13,000 --> 00:02:21,900
+kann man das Aussehen beeinflussen z.B. die Schriftgroesse
+
+16
+00:02:22,000 --> 00:02:45,900
+Ich tippe ein su -c "nano /usr/share/sushi/style/gtk-style.css" ENTER - Passwort eingeben
+
+17
+00:02:50,000 --> 00:03:01,900
+OK - An dieser Stelle kann ich nun die Schrift veraendern - und zwar an dieser Stelle
+
+18
+00:03:02,000 --> 00:03:06,900
+z.B. kann ich die Schrift vergroessern - ich ersetze 10 durch 20
+
+19
+00:03:07,000 --> 00:03:12,900
+ich speichere die Veraenderung mit Strg+O
+
+20
+00:03:13,000 --> 00:03:19,900
+Wenn ich jetzt eine Textdatei anklicke ist die Schrift schon viel groesser
+
+21
+00:03:20,000 --> 00:03:29,900
+oder ich kann die Schrift auch verkleinern, 5, Strg+O
+
+22
+00:03:30,000 --> 00:03:42,900
+OK - oder an dieser Position kann ich die Textfarbe veraendern
+
+23
+00:03:43,000 --> 00:03:55,900
+ein bisschen heller - jetzt sieht man nichts mehr
+
+24
+00:03:56,000 --> 00:04:09,900
+also ein bisschen dunkler mit 000 - also ganz schwarz - Speichern Strg+O - OK
+
+25
+00:04:10,000 --> 00:04:20,900
+Oder ich kann die Texthintergrundfarbe veraendern - und zwar an dieser Stelle
+
+26
+00:04:46,000 --> 00:04:48,900
+Tschau und viel Glueck
+
+27
+00:04:49,000 --> 00:04:49,001
+Dieses Untertitel-Dokument steht unter der Lizenz: http://creativecommons.org/publicdomain/zero/1.0/

@@ -1,0 +1,79 @@
+1
+00:00:05,000 --> 00:00:08,900
+Hallo - Gnome3 - eine Bildschirmtastatur
+
+2
+00:00:09,000 --> 00:00:12,900
+Hier und jetzt moechte ich mehrere Bildschirmtastaturen vorstellen
+
+3
+00:00:13,000 --> 00:00:16,900
+Bei Gnome3 kann man die Bildschirmtastatur wie folgt einschalten
+
+4
+00:00:17,000 --> 00:00:20,900
+man klickt auf das Icon Barrierefreiheit oben rechts
+
+5
+00:00:21,000 --> 00:00:23,900
+klickt auf Einstellungen zur Barrierefreiheit
+
+6
+00:00:24,000 --> 00:00:32,900
+geht zum Reiter Texteingabe - hier kann man die Bildschirmtastatur ein- und ausschalten
+
+7
+00:00:33,000 --> 00:00:42,900
+da es aber noch oft zu Fehlern kommt moechte ich auch gleich 3 andere Bildschirmtastaturen zeigen
+
+8
+00:00:43,000 --> 00:00:49,900
+ab Gnome 3.2 soll es dann eine ganz neue, stabile Bildschirmtastatur geben
+
+9
+00:00:50,000 --> 00:01:02,900
+Fenster schliessen - Ausserdem gibt es noch unter Anwendungen - Zubehoer - die Bildschirmtastatur eekboard
+
+10
+00:01:03,000 --> 00:01:12,900
+dort kann man eben nun per Mausklick Buchstaben, Zahlen und Zeichen eingeben
+
+11
+00:01:14,000 --> 00:01:21,900
+Diese Tastatur kann man auch starten per Befehl eekboard im Terminal
+
+12
+00:01:22,000 --> 00:01:29,900
+die anderen beiden Bildschirmtastaturen kann man nachinstallieren 
+
+13
+00:01:30,000 --> 00:01:42,900
+per Befehl su -c "yum install florence fvkbd" ENTER - Passwort eingeben
+
+14
+00:01:43,000 --> 00:01:50,900
+Hat man die Installation abgeschlossen findet man die beiden zusaetzlichen Bildschirmtastaturen
+
+15
+00:01:51,000 --> 00:01:59,900
+jetzt einmal unter Anwendungen - Barrierefreiheit - hier ist die Bildschirmtastatur florence
+
+16
+00:02:00,000 --> 00:02:03,900
+die kann man natuerlich auch starten per Befehl florence
+
+17
+00:02:04,000 --> 00:02:10,900
+und die andere Bildschirmtastatur findet man unter Anwendungen - Zubehoer
+
+18
+00:02:11,000 --> 00:02:23,900
+das ist das Soft Keyboard - das kann man auch starten per Befehl fvkbd-gtk
+
+19
+00:02:29,000 --> 00:02:31,900
+Tschau und viel Glueck
+
+20
+00:02:32,000 --> 00:02:32,001
+Dieses Untertitel-Dokument steht unter der Lizenz: http://creativecommons.org/publicdomain/zero/1.0/
