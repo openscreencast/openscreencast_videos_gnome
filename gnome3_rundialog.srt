@@ -1,0 +1,147 @@
+1
+00:00:05,000 --> 00:00:11,900
+Hallo - Herzlich Willkommen - In diesem Video-Tutorial soll der Run-Dialog von Gnome3 im Mittelpunkt stehen
+
+2
+00:00:12,000 --> 00:00:17,900
+Sowie zeitgleich die Tasten Alt und F2 gedrueckt werden erscheint der Run-Dialog
+
+3
+00:00:18,000 --> 00:00:24,900
+Der Zweck des Run-Dialogs besteht in der Ausfuehrung von Kommandos, die manuell vom Benutzer eingegeben werden
+
+4
+00:00:25,000 --> 00:00:29,900
+Der Run-Dialog kann an eine andere Tastenkombination gebunden werden
+
+5
+00:00:30,000 --> 00:00:39,900
+Unter Systemeinstellungen – Tastatur – Tastaturkuerzel – System
+
+6
+00:00:40,000 --> 00:00:45,900
+Den Befehl ausfuehren-Dialog kann man dies bewerkstelligen
+
+7
+00:00:46,000 --> 00:00:54,900
+Die Funktionen des Run-Dialogs werden in der Datei
+
+8
+00:00:55,000 --> 00:01:13,900
+/usr/share/gnome-shell/js/ui/runDialog.js in der Programmiersprache Javascript definiert
+
+9
+00:01:14,000 --> 00:01:19,900
+Um die Datei zu modifizieren fuehrt man folgenden Befehl in einem Terminal aus:
+
+10
+00:01:20,000 --> 00:01:43,900
+su -c "nano /usr/share/gnome-shell/js/ui/runDialog.js" (nano ist der Texteditor)
+
+11
+00:01:44,000 --> 00:01:50,900
+ENTER - Passwort eingeben und dann kann es losgehen
+
+12
+00:01:51,000 --> 00:01:58,900
+So ist es realisierbar den Begruessungstext zu aendern oder die internen Kommandos (r,restart,rt,lg,debugexit) zu editieren
+
+13
+00:01:59,000 --> 00:02:01,900
+Hier sind z.B. die internen Kommandos
+
+14
+00:02:05,000 --> 00:02:07,900
+Und hier ist der Begruessungstext
+
+15
+00:02:08,000 --> 00:02:15,900
+So kann ich den z.B. abaendern in Kommandoeingabe
+
+16
+00:02:16,000 --> 00:02:19,900
+Die Abaenderungen speichern mit Strg+O
+
+17
+00:02:20,000 --> 00:02:25,900
+und den Texteditor beenden mit Strg+X
+
+18
+00:02:26,000 --> 00:02:34,900
+Die Abaenderungen werden durch einen Gnome-Shell-Neustart (Alt+F2 r) wirksam
+
+19
+00:02:35,000 --> 00:02:41,900
+so hat sich der Begruessungstext geaendert in Kommandoeingabe
+
+20
+00:02:42,000 --> 00:02:48,900
+Das Erscheinungsbild des Run-Dialogs wird in der Datei
+
+21
+00:02:49,000 --> 00:02:58,900
+/usr/share/gnome-shell/theme/gnome-shell.css festgelegt
+
+22
+00:02:59,000 --> 00:03:06,900
+So ist es ebenso in dieser Datei moeglich die Werte fuer das Aussehen des Run-Dialogs zu bearbeiten
+
+23
+00:03:08,000 --> 00:03:12,900
+Ich oeffne ein Terminal und gebe ein
+
+24
+00:03:13,000 --> 00:03:27,900
+su -c "nano /usr/share/gnome-shell/theme/gnome-shell.css" (nano ist der Texteditor)
+
+25
+00:03:29,000 --> 00:03:32,900
+OK - Enter - Passwort eingeben
+
+26
+00:03:33,000 --> 00:03:45,900
+In der Sektion Run Dialog ist man nunmehr in der Lage die Schriftfarbe, die Schriftgroesse etc. zu veraendern
+
+27
+00:03:46,000 --> 00:03:54,900
+Die Suche ist moeglich mit F6 und ich suche nach Run Dialog
+
+28
+00:03:55,000 --> 00:04:13,900
+Jetzt kann ich z.B. hier die Textfarbe aendern z.B. in blue
+
+29
+00:04:14,000 --> 00:04:22,900
+Abaenderungen speichern mit Strg+O und Neustart Alt+F2 r
+
+30
+00:04:34,000 --> 00:04:46,900
+Durch .lightbox background-color ist es machbar die Hintergrundfarbe zu bestimmen
+
+31
+00:04:47,000 --> 00:04:58,900
+in ganz schwarz oder auch transparent, z.B. 1.0 fuer ganz schwarz
+
+32
+00:05:08,000 --> 00:05:14,900
+oder 0.0 fuer transparent
+
+33
+00:05:27,000 --> 00:05:38,900
+Um die Hintergrundfarbe des Run Dialogs selbst festzusetzen ist der neue Eintrag background-color notwendig
+
+34
+00:05:39,000 --> 00:05:54,900
+unter .run-dialog, an dieser Stelle kommt nun hinzu background-color: red; (z.B. red fuer rot)
+
+35
+00:05:55,000 --> 00:06:02,900
+Abaenderungen speichern mit Strg+O und Neustart Alt+F2 r
+
+36
+00:06:08,000 --> 00:06:10,900
+Tschau und viel Glueck
+
+37
+00:06:11,000 --> 00:06:11,001
+Lizenz dieser Untertitel-Datei: http://creativecommons.org/licenses/by/3.0/

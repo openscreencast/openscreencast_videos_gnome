@@ -1,0 +1,95 @@
+1
+00:00:05,000 --> 00:00:09,900
+Hallo - Gnome3 - die Shell Extension CPU Frequency
+
+2
+00:00:10,000 --> 00:00:16,900
+durch die Shell Extension CPU Frequency wird die aktuelle CPU Frequenz oben im Panel angezeigt
+
+3
+00:00:17,000 --> 00:00:23,900
+die Installation wird eingeleitet per Mausklick auf die Schaltfläche links neben dem Namen
+
+4
+00:00:24,000 --> 00:00:31,900
+auf der jeweiligen Seite bei extensions.gnome.org, so das ein ON erscheint
+
+5
+00:00:33,000 --> 00:00:42,900
+Installieren, und schon ist die Erweiterung oben im Panel
+
+6
+00:00:44,000 --> 00:01:01,900
+gescannt werden Dateien im Verzeichnis /sys/devices/system/cpu und jetzt cpu0, cpu1 usw.
+
+7
+00:01:02,000 --> 00:01:08,900
+im Unterverzeichnis cpufreq sind die jeweiligen Informationen
+
+8
+00:01:09,000 --> 00:01:17,900
+die gebraucht werden um dann die aktuelle CPU-Frequenz herauszufinden
+
+9
+00:01:18,000 --> 00:01:24,900
+die gefundenen Informationen werden angezeigt bzw. grafisch dargestellt
+
+10
+00:01:25,000 --> 00:01:31,900
+zu finden ist die Extension die ich gerade installiert habe in einem versteckten Verzeichnis
+
+11
+00:01:32,000 --> 00:01:44,900
+im persönlichen Ordner, und zwar im Ordner ~/.local/share/gnome-shell/extensions
+
+12
+00:01:45,000 --> 00:01:52,900
+hier ist die Erweiterung, durch das Entfernen des Ordners wird die Erweiterung gelöscht
+
+13
+00:01:53,000 --> 00:01:59,900
+anschliessend ist ein Gnome-Shell-Neustart notwendig, durch ALT+F2 r
+
+14
+00:02:00,000 --> 00:02:10,900
+um die Sättigung der Symbole zu deaktivieren ändert man den Wert der Konstante auf false
+
+15
+00:02:11,000 --> 00:02:21,900
+man ändert die Datei extension.js, mit einem Doppelklick öffnet man die Datei mit dem Texteditor
+
+16
+00:02:22,000 --> 00:02:26,900
+und in der Zeile 14 ist die richtige Konstante dazu
+
+17
+00:02:27,000 --> 00:02:40,900
+hier ändert man den Wert true und schreibt stattdessen false, Speichern, Texteditor schliessen
+
+18
+00:02:41,000 --> 00:02:58,900
+und jetzt führt man einen Gnome-Shell-Neustart durch mit ALT+F2 r, OK
+
+19
+00:02:59,000 --> 00:03:03,900
+und jetzt zeige ich nochmal wie man die Erweiterung löscht
+
+20
+00:03:04,000 --> 00:03:08,900
+mit der rechten Maustaste auf den Ordner der Erweiterung klicken
+
+21
+00:03:09,000 --> 00:03:12,900
+und jetzt den Eintrag 'in den Müll verschieben' anklicken
+
+22
+00:03:13,000 --> 00:03:21,900
+so wurde der Ordner gelöscht, und nun ALT+F2 r für den Gnome-Shell-Neustart
+
+23
+00:03:23,000 --> 00:03:27,900
+OK, Tschau und viel Glueck
+
+24
+00:03:28,000 --> 00:03:28,001
+Diese Untertitel-Datei steht unter http://creativecommons.org/licenses/by/3.0/

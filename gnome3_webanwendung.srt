@@ -1,0 +1,143 @@
+1
+00:00:05,000 --> 00:00:11,900
+Hallo - Herzlich Willkommen - Eine Webseite als Webanwendung speichern
+
+2
+00:00:11,000 --> 00:00:15,900
+Mit Gnome 3.2 ist es machbar Webseiten aehnlich wie Anwendungen zu benutzen
+
+3
+00:00:11,000 --> 00:00:20,900
+Voraussetzung dafuer ist die Verfuegbarkeit des Webbrowsers Epiphany
+
+4
+00:00:21,000 --> 00:00:23,900
+Ich starte ein Terminal - gehe auf Aktivitaeten
+
+5
+00:00:24,000 --> 00:00:27,900
+klicke auf Terminal, links in der Favoritenleiste
+
+6
+00:00:28,000 --> 00:00:40,900
+Die Installation kann bei Fedora per su -c "yum install epiphany" eingeleitet werden
+
+7
+00:00:41,000 --> 00:00:48,900
+Oder man kann ebenso das Tool gpk-application verwenden
+
+8
+00:00:49,000 --> 00:00:55,900
+Zu finden unter Aktivitaeten - Anwendungen - Systemwerkzeuge - Software hinzufuegen/entfernen
+
+9
+00:00:56,000 --> 00:01:04,900
+Epiphany kann gestartet werden unter Anwendungen - Internet - Epiphany
+
+10
+00:01:05,000 --> 00:01:12,900
+oder mittels Eingabe epiphany
+
+11
+00:01:14,000 --> 00:01:25,900
+OK - eine Webseite aufrufen - z.B. www.openclipart.org
+
+12
+00:01:30,000 --> 00:01:36,900
+OK - Im Menue Datei den Punkt Als Web-Anwendung speichern... waehlen
+
+13
+00:01:37,000 --> 00:01:40,900
+oder Shift+Strg+A druecken - so wird die Prozedur gestartet
+
+14
+00:01:41,000 --> 00:01:45,900
+und abschliessend klickt man auf den Button Erstellen
+
+15
+00:01:48,000 --> 00:01:52,900
+OK - Schliessen - Schliessen - Die Webseite wird zur Webanwendung
+
+16
+00:01:53,000 --> 00:01:59,900
+und wird bei Sonstige (Aktiviaeten - Anwendungen - Sonstige) aufgelistet
+
+17
+00:02:00,000 --> 00:02:03,900
+Hier ist jetzt die Anwendung
+
+18
+00:02:04,000 --> 00:02:12,900
+Links werden im Webbrowser aufgerufen, wenn es ein Link zu einer anderen Webseite ist
+
+19
+00:02:13,000 --> 00:02:16,900
+Die Webanwendung kann als Favorit definiert werden
+
+20
+00:02:17,000 --> 00:02:22,900
+Ich klicke auf die Anwendung mit der rechten Maustaste und klicke auf Zu Favoriten hinzufuegen
+
+21
+00:02:23,000 --> 00:02:26,900
+und schon erscheint die Anwendung hier in der Favoritenleiste
+
+22
+00:02:27,000 --> 00:02:37,900
+Um die Webanwendung zu starten klicke ich einfach darauf und schon wird das Fenster geoeffnet
+
+23
+00:02:40,000 --> 00:02:47,900
+Wie schon erwaehnt wenn ich auf einen Link zu einer fernen Webseite klicke
+
+24
+00:02:48,000 --> 00:02:52,900
+wird diese Webseite im Browser geoeffnet
+
+25
+00:02:56,000 --> 00:03:02,900
+Stuerzt ein Browser ab spielt das keine Rolle, die Webanwendung laeuft weiter
+
+26
+00:03:03,000 --> 00:03:09,900
+Gespeichert werden die Webanwendungen im Persoenlichen Ordner
+
+27
+00:03:10,000 --> 00:03:14,900
+in einem versteckten Verzeichnis - Ich klicke auf Ansicht
+
+28
+00:03:15,000 --> 00:03:19,900
+Verborgene Dateien anzeigen - so sieht man das Verzeichnis
+
+29
+00:03:20,000 --> 00:03:28,900
+Im Verzeichnis .gnome2 - im Unterverzeichnis epiphany
+
+30
+00:03:29,000 --> 00:03:30,900
+Hier ist die Webanwendung
+
+31
+00:03:31,000 --> 00:03:42,900
+Sollte die Webanwendung nicht in der uebersicht erscheinen
+
+32
+00:03:43,000 --> 00:03:49,900
+kann es daran liegen das unter .local - share - das Verzeichnis applications nicht vorhanden ist
+
+33
+00:03:50,000 --> 00:03:53,900
+wenn das der Fall ist dann einfach das Verzeichnis erstellen
+
+34
+00:03:54,000 --> 00:03:58,900
+PC neu starten und das ganze nochmal probieren
+
+35
+00:04:00,000 --> 00:04:02,900
+Tschau und viel Glueck
+
+36
+00:04:03,000 --> 00:04:03,001
+Dieses Untertitel-Dokument steht unter der Lizenz http://creativecommons.org/publicdomain/zero/1.0/

@@ -1,0 +1,115 @@
+1
+00:00:05,000 --> 00:00:09,900
+Hallo - Gnome3 - Die Shell Extension NetMonitor Lite
+
+2
+00:00:10,000 --> 00:00:13,900
+Durch sogenannte Shell Extensions ist man in der Lage
+
+3
+00:00:14,000 --> 00:00:16,900
+die Gnome3-Oberflaeche zu erweitern und zu ergaenzen
+
+4
+00:00:17,000 --> 00:00:19,900
+Speziell fuer diese Erweiterungen wurde
+
+5
+00:00:20,000 --> 00:00:24,900
+die frische Webseite extensions.gnome.org ins Leben gerufen
+
+6
+00:00:25,000 --> 00:00:28,900
+Hier sind die Shell Extensions verfuegbar
+
+7
+00:00:29,000 --> 00:00:37,900
+eigene koennen hinzugefuegt werden und installierte Extensions werden aufgelistet
+
+8
+00:00:38,000 --> 00:00:42,900
+NetMonitor Lite ist eine von diesen vielen Erweiterungen
+
+9
+00:00:43,000 --> 00:00:47,900
+sie zeigt die Download- und Upload-Bandbreite in der oberen Leiste an
+
+10
+00:00:48,000 --> 00:00:52,900
+Installiert wird eine Shell Extension indem man auf die Schaltflaeche
+
+11
+00:00:53,000 --> 00:00:59,900
+wo off steht klickt, links neben dem Namen der Erweiterung, so dass ein on erscheint
+
+12
+00:01:00,000 --> 00:01:05,900
+Anschliessend folgt man der Anweisung und klickt auf den Button Installieren
+
+13
+00:01:06,000 --> 00:01:10,900
+Und Willkommen Erweiterung NetMonitor Lite
+
+14
+00:01:22,000 --> 00:01:32,900
+Das Plugin Gnome Shell Integration macht diesen Vorgang realisierbar
+
+15
+00:01:34,000 --> 00:01:36,900
+Deinstalliert wird eine Erweiterung wie folgt
+
+16
+00:01:37,000 --> 00:01:45,900
+Man startet den Dateimanager, macht auch alle unsichtbaren Dateien sichtbar
+
+17
+00:01:46,000 --> 00:01:54,900
+indem man auf Ansicht klickt und dann verborgene Dateien anzeigen anklickt
+
+18
+00:01:57,000 --> 00:02:07,900
+Man geht ins Home-Verzeichnis, ins Verzeichnis .local - share - gnome-shell - extensions
+
+19
+00:02:08,000 --> 00:02:12,900
+und hier werden alle Erweiterungsverzeichnisse aufgelistet
+
+20
+00:02:13,000 --> 00:02:18,900
+Moechte man eine Erweiterung nun deinstallieren
+
+21
+00:02:19,000 --> 00:02:21,900
+loescht man einfach das Verzeichnis dazu
+
+22
+00:02:22,000 --> 00:02:29,900
+Man klickt mit der rechten Maustaste auf das Verzeichnis, so oeffnet sich ein Kontext-Menue
+
+23
+00:02:30,000 --> 00:02:32,900
+und klickt auf den Eintrag in den Muell verschieben
+
+24
+00:02:33,000 --> 00:02:39,900
+oder man markiert das Verzeichnis und geht auf Bearbeiten - in den Muell verschieben
+
+25
+00:02:40,000 --> 00:02:52,900
+und abschliessend leitet man einen Gnome-Shell Neustart ein mittels Alt+F2 restart
+
+26
+00:02:54,000 --> 00:02:59,900
+und schon ist die Erweiterung verschwunden
+
+27
+00:03:04,000 --> 00:03:05,900
+Hier kann man auch die Erweiterungen modifizieren
+
+28
+00:03:10,000 --> 00:03:12,900
+Tschau und viel Glueck
+
+29
+00:03:13,000 --> 00:03:13,001
+Dieses Dokument steht unter der Lizenz: http://creativecommons.org/licenses/by/3.0/
