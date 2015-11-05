@@ -1,0 +1,123 @@
+1
+00:00:05,000 --> 00:00:07,900
+Hallo - Gnome3 - Zoomen
+
+2
+00:00:08,000 --> 00:00:13,900
+Eine Funktion um die Ansicht zu Vergroessern befindet sich im Sektor Barrierefreiheit
+
+3
+00:00:14,000 --> 00:00:23,900
+Vergroessern aktiviert die Zoom-Funktion mit dem voreinstellten Zoomfaktor 2
+
+4
+00:00:25,000 --> 00:00:32,900
+Unter Einstellungen zur Barrierefreiheit entdeckt man in der Rubrik Sehen
+
+5
+00:00:33,000 --> 00:00:39,900
+ebenso die Vergroesserungsfunktion die man auch an dieser Stelle an und ausknipsen kann
+
+6
+00:00:40,000 --> 00:00:43,900
+Aber es gibt noch keine Tastenkuerzel
+
+7
+00:00:44,000 --> 00:00:48,900
+Um Tastenkombinationen fuer diese Aktionen der Vergroesserung zu bestimmen
+
+8
+00:00:49,000 --> 00:00:50,900
+wandert man zu den Systemeinstellungen
+
+9
+00:00:51,000 --> 00:00:55,900
+klickt auf Alle Einstellungen - waehlt Tastatur
+
+10
+00:00:56,000 --> 00:01:03,900
+Unter Tastaturkuerzel in der Kategorie Barrierefreiheit
+
+11
+00:01:04,000 --> 00:01:11,900
+kann man die Tastenkuerzel nun festlegen - man klickt auf Deaktiviert
+
+12
+00:01:12,000 --> 00:01:17,900
+z.B. fuer Lupe ein/ausschalten Strg+Alt+W
+
+13
+00:01:18,000 --> 00:01:24,900
+fuer Lupe vergroessert Shift+Strg++
+
+14
+00:01:25,000 --> 00:01:31,900
+und fuer Lupe verkleinert z.B. Shift+Strg+-
+
+15
+00:01:34,000 --> 00:01:38,900
+Prompt werden die Tastenkuerzel auch angezeigt
+
+16
+00:01:39,000 --> 00:01:48,900
+Strg+Alt+W aktiviert bzw. deaktiviert die Vergroesserung
+
+17
+00:01:49,000 --> 00:01:57,900
+Shift+Strg++ vergroessert die Ansicht
+
+18
+00:01:58,000 --> 00:02:03,900
+Shift+Strg+- verkleinert die Ansicht
+
+19
+00:02:06,000 --> 00:02:12,900
+Weitere Einstellungen dazu findet man uebrigens im dconf-editor
+
+20
+00:02:13,000 --> 00:02:16,900
+ich starte ein Terminal
+
+21
+00:02:17,000 --> 00:02:20,900
+falls in der Programmkollektion noch nicht vorhanden 
+
+22
+00:02:21,000 --> 00:02:36,900
+kann die Nachinstallation per su -c "yum install dconf-editor" angestossen werden
+
+23
+00:02:37,000 --> 00:02:42,900
+Gestartet wird das Programm mit dconf-editor
+
+24
+00:02:46,000 --> 00:03:03,900
+Unter org.gnome.desktop.a11y.magnifier kann man Werte nun modifizieren
+
+25
+00:03:05,000 --> 00:03:15,900
+z.B. soll ein Fadenkreuz angezeigt werden
+
+26
+00:03:17,000 --> 00:03:25,900
+wenn ja wie soll das Fadenkreuz aussehen
+
+27
+00:03:29,000 --> 00:03:38,900
+Welchen Wert soll der Zoomfaktor haben
+
+28
+00:03:46,000 --> 00:03:59,900
+Wie verhaelt sich das Bild zum Mauszeiger
+
+29
+00:04:29,000 --> 00:04:40,900
+Wird die Vergroesserung auf dem ganzen Bildschirm angezeigt oder nur unten, oben, links oder rechts
+
+30
+00:05:05,000 --> 00:05:08,900
+Tschau und viel Glueck
+
+31
+00:05:09,000 --> 00:05:09,001
+Dieses Untertitel-Dokument steht unter der Lizenz: http://creativecommons.org/publicdomain/zero/1.0/

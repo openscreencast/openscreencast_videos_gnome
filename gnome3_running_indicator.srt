@@ -1,0 +1,127 @@
+1
+00:00:05,000 --> 00:00:08,900
+Hallo - Gnome3 - der Running-Inidcator
+
+2
+00:00:09,000 --> 00:00:11,900
+Sobald ein Programm laeuft wird das Programm in der Favoritenliste 
+
+3
+00:00:12,000 --> 00:00:14,900
+auch Dash genannt besonders gekennzeichnet
+
+4
+00:00:15,000 --> 00:00:18,900
+Zu der Favoritenliste kommt man ueber Aktivitaeten
+
+5
+00:00:19,000 --> 00:00:28,900
+Ich starte z.B. den Dateimanager und prompt wird im Hintergrund
+
+6
+00:00:29,000 --> 00:00:36,900
+des Icons ein kleiner weisser Schatten angezeigt - ebenso wie bei Terminal
+
+7
+00:00:37,000 --> 00:00:39,900
+Das ist der Running-Inidcator
+
+8
+00:00:40,000 --> 00:00:52,900
+Die Grafik dazu findet man unter /usr/share/gnome-shell/theme/
+
+9
+00:00:53,000 --> 00:00:57,900
+und die Datei heisst running-indicator.svg
+
+10
+00:00:58,000 --> 00:01:02,900
+Mit Inkscape koennte man die Datei nun bearbeiten
+
+11
+00:01:03,000 --> 00:01:04,900
+und die Farbe aendern wenn man das moechte
+
+12
+00:01:05,000 --> 00:01:09,900
+die 1. Moeglichkeit um den Running-Indicator zu aendern
+
+13
+00:01:10,000 --> 00:01:20,900
+oder man oeffnet mit dem Texteditor nano die Datei gnome-shell.css per Befehl (vorher Terminal starten)
+
+14
+00:01:21,000 --> 00:01:37,900
+su -c "nano /usr/share/gnome-shell/theme/gnome-shell.css" ENTER - Passwort eingeben
+
+15
+00:01:39,000 --> 00:02:02,900
+OK - nun geht man bis zur Zeile mit dem Text .app-well-app.running (ziemlich weit unten)
+
+16
+00:02:05,000 --> 00:02:11,900
+die 2. Moeglichkeit man laesst den Running-Indicator einfach weg
+
+17
+00:02:12,000 --> 00:02:16,900
+dazu kommentiert man diese Zeile hier aus
+
+18
+00:02:19,000 --> 00:02:23,900
+OK - Aenderung speichern mit Strg+O
+
+19
+00:02:24,000 --> 00:02:31,900
+und jetzt leitet man einen Theme-Neustart ein per Alt+F2 rt
+
+20
+00:02:32,000 --> 00:02:36,900
+und schon gibt es keinen Running-Indicator mehr
+
+21
+00:02:38,000 --> 00:02:43,900
+OK - die 3. Moeglichkeit man benutzt ein anderes Bild
+
+22
+00:02:44,000 --> 00:02:50,900
+und habe schon mal ein Bild aus dem Internet heruntergeladen von openclipart.org
+
+23
+00:02:51,000 --> 00:03:02,900
+die Datei heisst steps.svg - die Datei habe ich schon vorher ins richtige Verzeichnis kopiert
+
+24
+00:03:03,000 --> 00:03:11,900
+OK - Strg+O zum Speichern - Alt+F2 rt fuer den Theme-Neustart
+
+25
+00:03:12,000 --> 00:03:18,900
+und schon gibt es im Hintergrund der laufenden Programme eine Grafik
+
+26
+00:03:20,000 --> 00:03:26,900
+oder die 4. Moeglichkeit man verwendet eine Hintergrundfarbe
+
+27
+00:03:27,000 --> 00:03:34,900
+dazu loescht man den letzten Teil der Zeile
+
+28
+00:03:35,000 --> 00:03:56,900
+man schreibt background-color: #D2B48C; - man bestimmt eine Farbe wie bei HTML/Css
+
+29
+00:03:57,000 --> 00:04:06,900
+die Aenderung speichern Strg+O - Alt+F2 rt
+
+30
+00:04:07,000 --> 00:04:10,900
+und schon gibt es eine Hintergrundfarbe
+
+31
+00:04:15,000 --> 00:04:18,900
+OK - Tschau und viel Glueck
+
+32
+00:04:19,000 --> 00:04:19,001
+Dieses Untertitel-Dokument steht unter der Lizenz: http://creativecommons.org/publicdomain/zero/1.0/

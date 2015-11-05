@@ -1,0 +1,91 @@
+1
+00:00:05,000 --> 00:00:10,900
+Hallo - In diesem Screencast geht es darum wie man den Placeholder in der Favoritenliste aendert
+
+2
+00:00:11,000 --> 00:00:17,900
+der Placeholder wird angezeigt wenn man in der Favoritenliste ein Icon anklickt
+
+3
+00:00:18,000 --> 00:00:24,900
+und versucht das Icon an eine andere Stelle zu bewegen
+
+4
+00:00:26,000 --> 00:00:29,900
+dann sieht man unter dem Icon so eine kleine Grafik
+
+5
+00:00:30,000 --> 00:00:36,900
+ein kleiner weisser Strich und in der Mitte ein kleiner weisser Punkt - das ist der Placeholder
+
+6
+00:00:38,000 --> 00:00:53,900
+die Grafik dazu findet man unter /usr/share/gnome-shell/theme
+
+7
+00:00:54,000 --> 00:00:59,900
+die Datei heisst dash-placeholder.svg
+
+8
+00:01:00,000 --> 00:01:04,900
+Um den Placeholder zu aendern oeffnet man ein Terminal
+
+9
+00:01:05,000 --> 00:01:20,900
+und gibt ein su -c "nano /usr/share/gnome-shell/theme/gnome-shell.css" - ENTER - Passwort eingeben
+
+10
+00:01:21,000 --> 00:01:35,900
+nano ist ein Texteditor - die Datei gnome-shell.css ziehe ich ins Terminal
+
+11
+00:01:36,000 --> 00:01:51,900
+OK - nun wandert man bis zur Zeile .dash-placeholder
+
+12
+00:01:55,000 --> 00:01:59,900
+Im Prinzip ist es genauso wie bei Gnome3 - running-indicator
+
+13
+00:02:00,000 --> 00:02:06,900
+man kann mit Inkscape die .svg-Grafikdatei aendern
+
+14
+00:02:07,000 --> 00:02:13,900
+oder man kann den Placeholder ganz weg lassen indem man die background-image Zeile auskommentiert
+
+15
+00:02:14,000 --> 00:02:24,900
+oder man benutzt eine andere Grafikdatei
+
+16
+00:02:25,000 --> 00:02:34,900
+oder man benutzt eine Hintergrundfarbe - das moechte ich hier mal als Beispiel zeigen
+
+17
+00:02:35,000 --> 00:02:43,900
+die erste Zeile kommentiere ich aus und schreibe eine neue
+
+18
+00:02:44,000 --> 00:03:02,900
+background-color: #D3F4E1; (man bestimmt irgendeine Farbe)
+
+19
+00:03:03,000 --> 00:03:07,900
+nun die Aenderung speichern mit Strg+O - ENTER
+
+20
+00:03:08,000 --> 00:03:19,900
+und jetzt einen Theme-Neustart einleiten mit Alt+F2 rt - OK
+
+21
+00:03:20,000 --> 00:03:33,900
+und der Placeholder wird nun durch eine Hintergrundfarbe angezeigt
+
+22
+00:03:35,000 --> 00:03:37,900
+OK - Tschau und viel Glueck
+
+23
+00:03:38,000 --> 00:03:38,001
+diese Untertitel-Dokument (.srt) steht unter der Lizenz: http://creativecommons.org/publicdomain/zero/1.0/

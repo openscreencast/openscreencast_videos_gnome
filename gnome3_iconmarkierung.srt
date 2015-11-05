@@ -1,0 +1,87 @@
+1
+00:00:05,000 --> 00:00:09,900
+Hallo - Gnome3 - die Iconmarkierung in der Favoritenliste aendern
+
+2
+00:00:10,000 --> 00:00:14,900
+Befindet man sich im uebersichtsmodus wird sobald man mit dem Mauspfeil
+
+3
+00:00:15,000 --> 00:00:22,900
+auf ein Icon zeigt das Icon durch eine Hintergrundfarbe (weisse durchsichtige) gekennzeichnet
+
+4
+00:00:23,000 --> 00:00:25,900
+Diese Markierung kann man wie folgt aendern
+
+5
+00:00:26,000 --> 00:00:27,900
+man startet ein Terminal
+
+6
+00:00:28,000 --> 00:00:33,900
+und gibt folgenden Befehl ein um eine Datei zu modifizieren
+
+7
+00:00:34,000 --> 00:00:51,900
+su -c "nano /usr/share/gnome-shell/theme/gnome-shell.css" (nano ist ein Texteditor)
+
+8
+00:00:52,000 --> 00:00:54,900
+ENTER - Passwort eingeben 
+
+9
+00:00:55,000 --> 00:00:57,900
+OK - soweit so gut
+
+10
+00:00:58,000 --> 00:01:15,900
+Jetzt wandert man mit dem Cursor bis zu folgender Zeile .app-well-app:hover > .overview-icon,
+
+11
+00:01:16,000 --> 00:01:25,900
+man kann die Markierung ganz weg lassen indem man die background-color:-Zeile auskommentiert
+
+12
+00:01:26,000 --> 00:01:37,900
+Speichern mit Strg+O (Ja) und ein Theme-Neustart einleiten mit Alt+F2 und rt eingeben
+
+13
+00:01:38,000 --> 00:01:44,900
+so wird das Ganze sichtbar - die Markierung ist verschwunden
+
+14
+00:01:45,000 --> 00:01:55,900
+OK - Oder man benutzt eine andere Farbe - man aendert die Werte
+
+15
+00:01:58,000 --> 00:02:05,900
+OK - Speichern - Theme-Neustart
+
+16
+00:02:07,000 --> 00:02:16,900
+oder man benutzt eine Grafik - ich kommentiere die background-color:-Zeile nochmal aus
+
+17
+00:02:17,000 --> 00:02:41,900
+und schreibe eine neue Zeile hinzu - und zwar background-image: url("steps.svg");
+
+18
+00:02:42,000 --> 00:02:48,900
+die Datei habe ich mir von openclipart.org heruntergeladen und ins richtige Verzeichnis kopiert
+
+19
+00:02:49,000 --> 00:02:57,900
+OK - Speichern und Theme-Neustart
+
+20
+00:03:00,000 --> 00:03:07,900
+OK - und jetzt wird eine Hintergrundgrafik angezeigt
+
+21
+00:03:14,000 --> 00:03:16,900
+Tschau und viel Glueck
+
+22
+00:03:17,000 --> 00:03:17,001
+Dieses Untertitel-Dokument steht unter der Lizenz: http://creativecommons.org/publicdomain/zero/1.0/
