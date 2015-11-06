@@ -1,0 +1,51 @@
+1
+00:00:05,000 --> 00:00:07,900
+Hallo - In diesem Screencast ein kleiner Tipp
+
+2
+00:00:08,000 --> 00:00:10,900
+Ein Terminal per Tastatur starten
+
+3
+00:00:11,000 --> 00:00:15,900
+Tastenkuerzel kann man bei Gnome3 wie folgt einsehen und veraendern
+
+4
+00:00:16,000 --> 00:00:24,900
+Man klickt oben rechts auf den Benutzernamen - waehlt Systemeinstellungen - klickt auf Tastatur
+
+5
+00:00:25,000 --> 00:00:31,900
+Unter Tastaturkuerzel kann man die Tastenkombinationen bearbeiten
+
+6
+00:00:32,000 --> 00:00:37,900
+Bei vielen Aktionen liest man das Wort deaktiviert dahinter
+
+7
+00:00:38,000 --> 00:00:41,900
+Es gibt also zu der jeweiligen Aktion noch kein Tastaturkuerzel
+
+8
+00:00:42,000 --> 00:00:49,900
+Eine Aktion davon ist unter Starter die Aktion Ein Terminal starten
+
+9
+00:00:50,000 --> 00:00:58,900
+Ein Klick auf deaktiviert und man ist in der Lage fuer ein Terminal starten
+
+10
+00:00:59,000 --> 00:01:11,900
+eine Tastenkombination zu bestimmen z.B. Strg+Alt+R - Einstellungen schliessen 
+
+11
+00:01:12,000 --> 00:01:21,900
+Mittels Strg+Alt+R wird nun das Terminal fuer die Eingabe aufgerufen
+
+12
+00:01:28,000 --> 00:01:31,900
+Tschau und viel Glueck
+
+13
+00:01:32,000 --> 00:01:32,001
+Dieses Untertitel-Dokument steht unter der Lizenz: http://creativecommons.org/publicdomain/zero/1.0/

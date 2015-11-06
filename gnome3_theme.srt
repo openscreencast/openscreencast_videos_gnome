@@ -1,0 +1,95 @@
+1
+00:00:05,000 --> 00:00:09,900
+Hallo - Ziel dieses Screencasts ist es zu zeigen wie man Gnome3
+
+2
+00:00:10,000 --> 00:00:11,900
+ein neues Erscheinungsbild spendieren kann
+
+3
+00:00:12,000 --> 00:00:14,900
+sprich wie man das Design aendert
+
+4
+00:00:15,000 --> 00:00:27,900
+Durch den Installationsbefehl su -c "yum install gnome-shell-extension-theme-selector"
+
+5
+00:00:28,000 --> 00:00:34,900
+ENTER - Passwort eingeben - wird der Prozess eingeleitet 
+
+6
+00:00:35,000 --> 00:00:38,900
+2 weitere Pakete werden mit installiert
+
+7
+00:00:48,000 --> 00:01:01,900
+Die Installtion ist ebenfalls mittels gpk-application machbar
+
+8
+00:01:03,000 --> 00:01:09,900
+Ein Gnome-Shell-Neustart per Alt+F2 r aktiviert die Extensions
+
+9
+00:01:10,000 --> 00:01:13,900
+und macht sie im gnome-tweak-tool sichtbar
+
+10
+00:01:16,000 --> 00:01:24,900
+Anwendungen - Zubehoer - gnome-tweak-tool - Shell Extensions
+
+11
+00:01:26,000 --> 00:01:32,900
+Nun sucht man sich ein Theme im Internet und laedt es herunter
+
+12
+00:01:33,000 --> 00:01:39,900
+auf diesen beiden Webseiten stehen mehrere Themes zum Download bereit
+
+13
+00:01:40,000 --> 00:01:44,900
+einmal hier unter Gnome Shell und hier
+
+14
+00:01:45,000 --> 00:02:00,900
+Ich klicke auf Gnome-Shell-Themes und waehle dieses Theme - lade es herunter
+
+15
+00:02:01,000 --> 00:02:08,900
+Datei speichern - OK
+
+16
+00:02:09,000 --> 00:02:19,900
+Im gnome-tweak-tool unter Shell installiere ich das Theme jetzt - klicke auf (keine)
+
+17
+00:02:20,000 --> 00:02:27,900
+gehe in den Ordner Downloads - waehle das Paket - klicke auf den Button oeffnen
+
+18
+00:02:28,000 --> 00:02:29,900
+und das Theme ist installiert
+
+19
+00:02:30,000 --> 00:02:40,900
+Jetzt ist nochmal ein Gnome-Shell-Neustart erforderlich - Alt+F2 r
+
+20
+00:02:41,000 --> 00:02:57,900
+Die Themes findet man im uebrigen im Persoenlichen Ordner im versteckten Verzeichnis .themes wieder
+
+21
+00:02:58,000 --> 00:03:10,900
+Anhand des gnome-tweak-tools ist man nunmehr im Stande das Theme zu wechseln
+
+22
+00:03:13,000 --> 00:03:23,900
+oder man geht auf Aktivitaeten klickt auf Themes neben Fenster und Anwendungen
+
+23
+00:03:24,000 --> 00:03:30,900
+und ist in der Lage ein neues Erscheinungsbild zu bestimmen
+
+24
+00:03:38,000 --> 00:03:40,900
+Tschau und viel Glueck
