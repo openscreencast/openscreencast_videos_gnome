@@ -1,0 +1,87 @@
+1
+00:00:05,000 --> 00:00:07,900
+Hallo - Gnome3 - Erweiterungen
+
+2
+00:00:08,000 --> 00:00:11,900
+Durch sogenannte Erweiterungen ist man im Stande Gnome3 auszuschmuecken
+
+3
+00:00:12,000 --> 00:00:14,900
+bzw. Gnome3 neue Faehigkeiten zu verleihen
+
+4
+00:00:15,000 --> 00:00:17,900
+sprich neue Funktionen und Features hinzuzufuegen
+
+5
+00:00:18,000 --> 00:00:24,900
+Auf dieser Seite findet man ein Paket mit mehreren Erweiterungen
+
+6
+00:00:25,000 --> 00:00:29,900
+Jetzt moechte ich zeigen wie man 2 Erweiterungen davon installiert
+
+7
+00:00:30,000 --> 00:00:37,900
+Zuallererst lade ich das Paket herunter - klicke auf die Datei - Datei speichern
+
+8
+00:00:38,000 --> 00:00:46,900
+OK - gehe in den Ordner Downloads - klicke auf die heruntergeladene Datei
+
+9
+00:00:47,000 --> 00:00:59,900
+Ich entpacke die Datei im Persoenlichen Ordner - Persoenlicher Ordner - Entpacken
+
+10
+00:01:00,000 --> 00:01:05,900
+Das ist wichtig sonst landen die Dateien am falschen Ort
+
+11
+00:01:06,000 --> 00:01:15,900
+Zu finden sind die Erweiterungen nun unter (Ansicht - Verborgene Dateien anzeigen)
+
+12
+00:01:16,000 --> 00:01:24,900
+~/.local/share/gnome-shell/extensions
+
+13
+00:01:25,000 --> 00:01:39,900
+Die Erweiterungen die ich nicht brauche da loesche ich geradewegs die Ordner
+
+14
+00:01:40,000 --> 00:01:46,900
+Die Erweiterungen brauche ich nicht - in den Muell verschieben - OK
+
+15
+00:01:47,000 --> 00:02:00,900
+Der Gnome-Shell-Neustart per Alt+F2 r bringt letzten Endes die Feature zum Vorschein
+
+16
+00:02:01,000 --> 00:02:15,900
+Hier gibt es jetzt ein Menue und die Favoriten sind im Panel
+
+17
+00:02:16,000 --> 00:02:20,900
+Neuerdings kann man Erweiterungen auch mittels gnome-tweak-tool aktivieren und deaktivieren
+
+18
+00:02:21,000 --> 00:02:30,900
+Anwendungen - Zubehoer - Erweiterte Einstellungen optimieren - das Gnome-Tweak-Tool
+
+19
+00:02:31,000 --> 00:02:36,900
+einfach drauf klicken - OK - jetzt unter Shell Extensions
+
+20
+00:02:37,000 --> 00:02:42,900
+und hier sind meine beiden Erweiterungen die ich auch wieder deaktivieren kann
+
+21
+00:02:43,000 --> 00:02:50,900
+Restart und schon sind die Erweiterungen nicht mehr da
+
+22
+00:02:53,000 --> 00:02:56,900
+Tschau und viel Glueck
