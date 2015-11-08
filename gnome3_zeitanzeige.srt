@@ -1,0 +1,103 @@
+1
+00:00:05,000 --> 00:00:09,900
+Hallo - hier moechte ich jetzt mal zeigen
+
+2
+00:00:10,000 --> 00:00:19,900
+wie man hier oben auch noch das Datum und die Sekunden mit anzeigen lassen kann statt nur die Uhr
+
+3
+00:00:20,000 --> 00:00:27,900
+Einstellungsmoeglichkeiten gibt es bei Gnome3 noch sehr wenig
+
+4
+00:00:28,000 --> 00:00:34,900
+Einstellungsmoeglichkeiten findet man unter Anwendungen - Systemwerkzeuge - Systemeinstellungen
+
+5
+00:00:35,000 --> 00:00:39,900
+aber hier gibt es noch sehr wenig Moeglichkeiten
+
+6
+00:00:40,000 --> 00:00:44,900
+Aber dennoch gibt es die Moeglichkeit Einstellungen zu machen
+
+7
+00:00:45,000 --> 00:00:54,900
+Unzwar mit dem Programm dconf-editor und mit dem Programm gsettings
+
+8
+00:00:55,000 --> 00:01:00,900
+das Programm dconf-editor muss nachinstalliert werden
+
+9
+00:01:01,000 --> 00:01:19,900
+und das laeuft bei Fedora so: su -c "yum install dconf-editor"
+
+10
+00:01:20,000 --> 00:01:24,900
+ENTER - Passwort eingeben und dann wird das Programm heruntergeladen
+
+11
+00:01:25,000 --> 00:01:27,900
+Ich habe das Programm schon installiert
+
+12
+00:01:28,000 --> 00:01:33,900
+gestartet wird das Programm mit dconf-editor
+
+13
+00:01:34,000 --> 00:01:41,900
+Und die Einstellungsmoeglichkeiten um die Uhrzeitanzeige zu veraendern
+
+14
+00:01:42,000 --> 00:01:47,900
+findet man unter org.gnome.shell.clock
+
+15
+00:01:48,000 --> 00:01:55,900
+und jetzt kann man hier ein Haekchen setzen bei show-date - also das Datum anzeigen lassen
+
+16
+00:01:56,000 --> 00:02:02,900
+und bei show-seconds - Sekunden anzeigen lassen, ganz einfach
+
+17
+00:02:03,000 --> 00:02:10,900
+das kann man auch mit dem Programm gsettings - das Programm laeuft im Terminal
+
+18
+00:02:11,000 --> 00:02:20,900
+gsettings --help zeigt die Optionen
+
+19
+00:02:21,000 --> 00:02:25,900
+und um erstmal den Wert herauszubekommen
+
+20
+00:02:26,000 --> 00:02:50,900
+schreibe ich gsettings get org.gnome.shell.clock show-date - das Datum
+
+21
+00:02:51,000 --> 00:02:55,900
+da ist der Wert false - und um den Wert zu aendern
+
+22
+00:02:56,000 --> 00:02:59,900
+ersetzte ich get durch set - also einen Wert setzen
+
+23
+00:03:00,000 --> 00:03:06,900
+und schreibe hinter show-date true
+
+24
+00:03:07,000 --> 00:03:15,900
+und schon wird das Datum auch mit angezeigt - das kann ich auch mit show-seconds machen
+
+25
+00:03:20,000 --> 00:03:29,900
+und den Wert wieder aendern auf false - und mit get wird der Wert angezeigt
+
+26
+00:03:33,000 --> 00:03:36,900
+OK - Tschau und viel Glueck

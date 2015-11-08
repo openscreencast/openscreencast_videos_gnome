@@ -1,0 +1,135 @@
+1
+00:00:05,000 --> 00:00:08,900
+Hallo - Gnome3 hat eine Screencast-Funktion
+
+2
+00:00:09,000 --> 00:00:10,900
+und die moechte ich hier jetzt mal vorstellen
+
+3
+00:00:11,000 --> 00:00:18,900
+Man muss also nicht, wie sonst immer, irgend ein Extra-Tool installieren um Bildschirmaktivitaeten aufzunehmen
+
+4
+00:00:19,000 --> 00:00:20,900
+wie z.B. recordmydesktop
+
+5
+00:00:21,000 --> 00:00:27,900
+sondern es reicht vollkommen aus wenn man die Tastenkombination Strg+Alt+Shift+R drueckt
+
+6
+00:00:28,000 --> 00:00:32,900
+und schon beginnt die Aufnahme - das wird auch hier unten mit dem roten Kreis angezeigt
+
+7
+00:00:33,000 --> 00:00:40,900
+und mit der gleichen Tastenkombination beendet man auch die Aufnahme Strg+Alt+Shift+R
+
+8
+00:00:41,000 --> 00:00:47,900
+Die Daten werden dann in eine Datei, in eine webm-Datei geschrieben
+
+9
+00:00:48,000 --> 00:00:51,900
+Im Home-Verzeichnis befindet sich die webm-Datei
+
+10
+00:00:52,000 --> 00:00:58,900
+mit dem Muster shell-yyyymmdd-#.webm
+
+11
+00:00:59,000 --> 00:01:04,900
+Der Videocodec ist hier VP8
+
+12
+00:01:05,000 --> 00:01:12,900
+und die Aufnahme war mit 15 Frames pro Sekunde
+
+13
+00:01:15,000 --> 00:01:19,900
+dazu kann man die Einstellungen aendern
+
+14
+00:01:20,000 --> 00:01:23,900
+aber dazu braucht man ein Extra-Tool das man installieren muss
+
+15
+00:01:24,000 --> 00:01:26,900
+und das geht bei Fedora so
+
+16
+00:01:27,000 --> 00:01:49,900
+su -c "yum install dconf-editor" ENTER - Passwort eingeben
+
+17
+00:01:50,000 --> 00:01:53,900
+und jetzt ja ich moechte das Paket installieren
+
+18
+00:01:54,000 --> 00:01:59,900
+nun wird das Programm heruntergeladen und installiert
+
+19
+00:02:00,000 --> 00:02:06,900
+Der Start erfolgt mit dem Befehl dconf-editor
+
+20
+00:02:07,000 --> 00:02:19,900
+Und jetzt findet man die Einstellungsmoeglichkeiten zu dem Shell-Recorder unter org.gnome.shell.recorder
+
+21
+00:02:20,000 --> 00:02:24,900
+Jetzt kann man hier die Dateiendung veraendern
+
+22
+00:02:25,000 --> 00:02:30,900
+das ist webm momentan, man kann auch etwas anderes hinschreiben
+
+23
+00:02:31,000 --> 00:02:34,900
+Framerate ist 15, das kann man auch aendern
+
+24
+00:02:35,000 --> 00:02:41,900
+und die pipeline - das ist die Weiterverarbeitung der Daten
+
+25
+00:02:42,000 --> 00:02:49,900
+das erfolgt mit dem Programm gst-launch
+
+26
+00:02:50,000 --> 00:02:59,900
+Und die Optionen dazu sind diese hier - das ist momentan Standard - das kann man auch veraendern
+
+27
+00:03:00,000 --> 00:03:05,900
+Das mache ich jetzt hier mal - ich moechte nicht webm sondern ogg-theora
+
+28
+00:03:06,000 --> 00:03:11,900
+so kopiere ich die Daten einfach - schreibe die hier rein
+
+29
+00:03:12,000 --> 00:03:32,900
+aendere die Daten - theoraenc statt vp8enc - das lasse ich hier einfach mal weg - und statt webmmux oggmux OK
+
+30
+00:03:33,000 --> 00:03:46,900
+Jetzt noch mal die Aufnahme mit Strg+Alt+Shift+R OK - und die Aufnahme beenden Strg+Alt+Shift+R
+
+31
+00:03:50,000 --> 00:04:14,900
+die Verarbeitung laeuft noch wie man sieht - OK Verarbeitung fertig
+
+32
+00:04:15,000 --> 00:04:23,900
+Und hier sieht man auch schon der Videocodec ist Theora, 15 Frames pro Sekunde, da hat sich nichts geaendert
+
+33
+00:04:24,000 --> 00:04:28,900
+und die Aufnahme hat 7 Sekunden gedauert
+
+34
+00:04:30,000 --> 00:04:33,900
+OK - Tschau und viel Glueck

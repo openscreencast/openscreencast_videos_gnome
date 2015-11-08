@@ -1,0 +1,75 @@
+1
+00:00:05,000 --> 00:00:09,900
+Hallo - In diesem Video ein kleiner Tipp
+
+2
+00:00:10,000 --> 00:00:16,900
+Unzwar bei Gnome3 gibt es eigentlich nur den Fensterbutton Fenster schliessen
+
+3
+00:00:17,000 --> 00:00:20,900
+wer jetzt auch noch die Fensterbuttons Fenster minimieren
+
+4
+00:00:21,000 --> 00:00:27,900
+Fenster maximieren und Fenstermenue wieder in seinen Fenstern haben moechte
+
+5
+00:00:28,000 --> 00:00:29,900
+der kann folgendes tun
+
+6
+00:00:30,000 --> 00:00:33,900
+der kann das Tool gconf-editor nachinstallieren
+
+7
+00:00:34,000 --> 00:00:48,900
+bei Fedora geht das so: su -c "yum install gconf-editor" ENTER, Passwort eingeben
+
+8
+00:00:49,000 --> 00:00:52,900
+und warten bis das Paket heruntergeladen wurde und installiert ist
+
+9
+00:00:53,000 --> 00:00:58,900
+dann startet man das Tool mit gconf-editor
+
+10
+00:00:59,000 --> 00:01:09,900
+und findet die Einstellungen unter desktop.gnome.shell.windows
+
+11
+00:01:10,000 --> 00:01:16,900
+und dann gibt es hier den Eintrag button_layout
+
+12
+00:01:17,000 --> 00:01:23,900
+normalerweise steht da :close - das heisst es gibt nur den Fensterbutton Fenster schliessen
+
+13
+00:01:24,000 --> 00:01:30,900
+und um das zu aendern habe ich hier mal den Text
+
+14
+00:01:31,000 --> 00:01:39,900
+aus der ausfuehrlichen Beschreibung herauskopiert - unzwar den Text in Anfuehrungszeichen
+
+15
+00:01:40,000 --> 00:01:43,900
+habe den Text kopiert und habe den einfach mal als Wert genommen
+
+16
+00:01:44,000 --> 00:01:48,900
+habe den Text dort reingeschrieben - dann habe ich Gnome3 neu gestartet
+
+17
+00:01:49,000 --> 00:01:53,900
+und schon waren die Fensterbuttons Fenster minimieren
+
+18
+00:01:54,000 --> 00:01:59,900
+Fenster maximieren und Fenstermenue wieder im Fenster
+
+19
+00:02:01,000 --> 00:02:04,900
+Tschau und viel Glueck

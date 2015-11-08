@@ -1,0 +1,51 @@
+1
+00:00:05,000 --> 00:00:06,900
+Hallo - In diesem Video ein kleiner Tipp
+
+2
+00:00:07,000 --> 00:00:11,900
+Wer das Einstellungsspektrum von Gnome3 ein bisschen erweitern moechte
+
+3
+00:00:12,000 --> 00:00:15,900
+fuer den gibt es das Tool gnome-tweak-tool
+
+4
+00:00:16,000 --> 00:00:22,900
+Auf folgende Eingabe reagiert Fedora mit einer Paketinstallation
+
+5
+00:00:23,000 --> 00:00:35,900
+su -c "yum install gnome-tweak-tool" ENTER
+
+6
+00:00:36,000 --> 00:00:45,900
+Passwort eingeben - warten - ja ich moechte das Paket installieren
+
+7
+00:00:54,000 --> 00:00:57,900
+und die Installation ist komplett
+
+8
+00:00:58,000 --> 00:01:07,900
+Nun kann ich das Tool starten mit gnome-tweak-tool
+
+9
+00:01:08,000 --> 00:01:14,900
+oder ich finde es auch unter Anwendungen - Zubehoer
+
+10
+00:01:15,000 --> 00:01:20,900
+und da ist das Tweak Tool
+
+11
+00:01:21,000 --> 00:01:27,900
+oder Start per Eingabe gnome-tweak-tool
+
+12
+00:01:28,000 --> 00:01:39,900
+und hier sind jetzt ein paar Einstellungsmoeglichkeiten die man Gnome3 eigentlich nicht findet
+
+13
+00:01:46,000 --> 00:01:48,900
+Tschau und viel Glueck

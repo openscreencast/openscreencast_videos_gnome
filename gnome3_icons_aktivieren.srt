@@ -1,0 +1,67 @@
+1
+00:00:05,000 --> 00:00:13,900
+Hallo - In diesem Video moechte ich zeigen wie man sich mehr Icons anzeigen lassen kann
+
+2
+00:00:14,000 --> 00:00:17,900
+Unzwar geht das so
+
+3
+00:00:18,000 --> 00:00:25,900
+Man installiert das Programm dconf-editor wenn es noch nicht installiert ist
+
+4
+00:00:26,000 --> 00:00:45,900
+Bei Fedora laeuft das so: su -c "yum install dconf-editor" - ENTER, Passwort eingeben
+
+5
+00:00:46,000 --> 00:00:49,900
+und dann warten bis das Programm installiert ist
+
+6
+00:00:50,000 --> 00:00:56,900
+Ich habe das Tool schon installiert - gestartet wird das Programm mit dconf-editor
+
+7
+00:00:57,000 --> 00:01:05,900
+und dann kann man sich mehr Icons anzeigen lassen
+
+8
+00:01:06,000 --> 00:01:17,900
+unter org.gnome.desktop.interface
+
+9
+00:01:18,000 --> 00:01:24,900
+und hier kann man setzen buttons-have-icons - das ist hier schon gesetzt
+
+10
+00:01:25,000 --> 00:01:30,900
+und dann gibt es noch die Moeglichkeit menus-have-icons
+
+11
+00:01:31,000 --> 00:01:35,900
+dort setze ich ein Haekchen
+
+12
+00:01:36,000 --> 00:01:40,900
+und schon sieht man in den Menues ein paar Icons mehr
+
+13
+00:01:41,000 --> 00:01:53,900
+und dann gibt es noch die Moeglichkeit sich die Dateien anzeigen zu lassen die im Ordner Desktop sind
+
+14
+00:01:54,000 --> 00:02:05,900
+Unzwar geht das so - dann geht man auf org.gnome.desktop.background
+
+15
+00:02:06,000 --> 00:02:10,900
+und hier gibt es die Einstellung show-desktop-icons, dort setzt man ein Haekchen
+
+16
+00:02:11,000 --> 00:02:20,900
+und dann wird alles was im Verzeichnis Desktop ist, was auf den Desktop gehoert mit angezeigt
+
+17
+00:02:24,000 --> 00:02:27,900
+Tschau und viel Glueck
