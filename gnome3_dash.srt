@@ -1,0 +1,195 @@
+1
+00:00:05,000 --> 00:00:09,900
+Hallo - In diesem Screencast soll es um das Dash von Gnome3 gehen
+
+2
+00:00:10,000 --> 00:00:13,900
+Sowie man die Uebersicht aufgerufen hat
+
+3
+00:00:14,000 --> 00:00:18,900
+mittels Tastenkombination Alt+F1 oder
+
+4
+00:00:19,000 --> 00:00:23,900
+indem man mit dem Mauspfeil oben links in die Ecke wandert
+
+5
+00:00:24,000 --> 00:00:27,900
+erblickt man auf der linken Seite das so genannte Dash
+
+6
+00:00:28,000 --> 00:00:31,900
+Im Dash befinden sich die Icons von den favorisierten Programmen
+
+7
+00:00:32,000 --> 00:00:37,900
+Darueber hinaus werden die gerade laufenden Anwendungen angezeigt
+
+8
+00:00:38,000 --> 00:00:42,900
+Erlebt ein Favorit einen Mausklick wird das Programm gestartet
+
+9
+00:00:45,000 --> 00:00:54,900
+Klickt man auf ein aktives Programm wird jenes Fenster fokussiert
+
+10
+00:00:55,000 --> 00:00:58,900
+Ein Rechtsklick hingegen oeffnet ein Menue
+
+11
+00:00:59,000 --> 00:01:03,900
+Wobei die Gliederung davon abhaengig ist ob auf ein laufendes Programm
+
+12
+00:01:04,000 --> 00:01:08,900
+oder auf einen Favoriten geklickt wird
+
+13
+00:01:16,000 --> 00:01:21,900
+Drueckt man zeitgleich die Strg-Taste beim Mausklick auf das laufende Firefox-Programm
+
+14
+00:01:22,000 --> 00:01:30,900
+oeffnet sich ein neues Fenster auf der aktuellen Arbeitsflaeche
+
+15
+00:01:33,000 --> 00:01:40,900
+Zieht man ein Icon kann man die Position variieren
+
+16
+00:01:42,000 --> 00:01:45,900
+Des Weiteren wird ein Papierkorb bereitgestellt
+
+17
+00:01:46,000 --> 00:01:49,900
+Sobald man ein Icon in den Papierkorb verschiebt
+
+18
+00:01:50,000 --> 00:02:00,900
+wird der Favorit aus dem Dash entfernt
+
+19
+00:02:14,000 --> 00:02:16,900
+Ein Programmstart wird ebenso herbeigefuehrt
+
+20
+00:02:17,000 --> 00:02:26,900
+wenn man das dazugehoerige Symbol auf eine Arbeitsflaeche zieht
+
+21
+00:02:30,000 --> 00:02:33,900
+Moechte man ein bestimmtes Programm zum Favoriten machen
+
+22
+00:02:34,000 --> 00:02:36,900
+klickt man das Programm mit der rechten Maustaste an
+
+23
+00:02:37,000 --> 00:02:46,900
+und waehlt im Kontextmenue Zu Favoriten hinzufuegen
+
+24
+00:02:50,000 --> 00:02:53,900
+Die Favoritenliste ist ebenfalls modifizierbar
+
+25
+00:02:54,000 --> 00:02:59,900
+unter Zuhilfenahme der Tools dconf-editor und gsettings
+
+26
+00:03:00,000 --> 00:03:02,900
+Ist das Tool dconf-editor noch nicht installiert
+
+27
+00:03:03,000 --> 00:03:15,900
+kann man es nachinstallieren per Befehl su -c "yum install dconf-editor"
+
+28
+00:03:16,000 --> 00:03:19,900
+ENTER - Passwort eingeben und warten bis das Programm installiert ist
+
+29
+00:03:20,000 --> 00:03:25,900
+Dann kann man das Tool starten per dconf-editor
+
+30
+00:03:26,000 --> 00:03:31,900
+Den entsprechenden Eintrag bei dconf-editor
+
+31
+00:03:32,000 --> 00:03:40,900
+entdeckt man unter org.gnome.shell, dort gibt es favorite-apps
+
+32
+00:03:41,000 --> 00:03:48,900
+Hier kann man Favoriten hinzufuegen und entfernen
+
+33
+00:03:49,000 --> 00:04:06,900
+so kann ich jetzt zum Beispiel den Texteditor gedit entfernen und schon ist er weg
+
+34
+00:04:07,000 --> 00:04:28,900
+oder ich kann den Texteditor gedit auch wieder hinzufuegen und schon ist er wieder da
+
+35
+00:04:35,000 --> 00:04:41,900
+Das Erscheinungsbild vom Dash basiert bei Gnome3 auf dem CSS-Format
+
+36
+00:04:42,000 --> 00:04:45,900
+Nichts neues fuer alle die jenigen die sich mit Webseiten auskennen
+
+37
+00:04:46,000 --> 00:04:49,900
+An der Hintergrundfarbe soll das kurz demonstriert werden
+
+38
+00:04:50,000 --> 00:04:57,900
+Man editiert jene Datei gnome-shell.css im Verzeichnis /usr/share/gnome-shell/theme/
+
+39
+00:04:58,000 --> 00:05:30,900
+z.B. durch su -c "vi /usr/share/gnome-shell/theme/gnome-shell.css"
+
+40
+00:05:31,000 --> 00:05:38,900
+ENTER - Passwort eingeben - OK
+
+41
+00:05:39,000 --> 00:05:52,900
+jetzt sucht man nach Dash und veraendert dort den Wert background-color
+
+42
+00:05:52,000 --> 00:06:02,900
+da ist der Wert, jetzt die Taste i druecken, den Wert entfernen
+
+43
+00:06:03,000 --> 00:06:07,900
+und einen anderen Wert hinschreiben zum Beispiel green
+
+44
+00:06:03,000 --> 00:06:20,900
+Jetzt ESC-Taste druecken, :wq! - Speichern und Programm beenden
+
+45
+00:06:21,000 --> 00:06:25,900
+Andere Werte koennen natuerlich auch geaendert werden
+
+46
+00:06:26,000 --> 00:06:30,900
+Beim Dash hat sich noch nichts geaendert
+
+47
+00:06:31,000 --> 00:06:41,900
+Jetzt ist nur noch ein Theme-Neustart erforderlich per Alt+F2 - rt eingeben
+
+48
+00:06:42,000 --> 00:06:48,900
+um das neue Aussehen herbeizufuehren, und schon ist das Dash gruen
+
+49
+00:06:49,000 --> 00:06:50,900
+Tschau und viel Glueck

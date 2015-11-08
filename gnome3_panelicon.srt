@@ -1,0 +1,71 @@
+1
+00:00:05,000 --> 00:00:07,900
+Hallo - In diesem Screencast ein kleiner Tipp
+
+2
+00:00:08,000 --> 00:00:13,900
+Und zwar wie kann man bei Gnome3 ein Panel-Icon (System-Status-Icon) entfernen oder auch mehrere
+
+3
+00:00:14,000 --> 00:00:17,900
+die man hier oben rechts sieht im Panel
+
+4
+00:00:18,000 --> 00:00:22,900
+Anhand des Accessibility-Icons moechte ich das mal zeigen wie das funktioniert
+
+5
+00:00:23,000 --> 00:00:26,900
+Als erstes startet man ein Terminal - klickt auf Aktivitaeten
+
+6
+00:00:27,000 --> 00:00:34,900
+Anwendungen - Systemwerkzeuge - klickt auf Terminal
+
+7
+00:00:35,000 --> 00:00:37,900
+und jetzt modifiziert man die Datei panel.js
+
+8
+00:00:38,000 --> 00:01:06,900
+per Befehl su -c "vi /usr/share/gnome-shell/js/ui/panel.js" ENTER - Passwort eingeben
+
+9
+00:01:07,000 --> 00:01:19,900
+und jetzt in folgender Zeile das a11y entfernen
+
+10
+00:01:20,000 --> 00:01:32,900
+und bei dieser Zeile - i druecken - 2 Schraegstriche davor
+
+11
+00:01:33,000 --> 00:01:36,900
+so wird die Zeile als Kommentar gewertet
+
+12
+00:01:37,000 --> 00:01:39,900
+natuerlich kann man das auch mit den anderen Icons machen
+
+13
+00:01:40,000 --> 00:01:50,900
+z.B. mit dem volume- oder bluetooth-Icon - man geht nach dem gleichen Muster vor
+
+14
+00:01:51,000 --> 00:02:02,900
+jetzt ESC druecken - :wq! eingeben - ENTER - so wird die Datei mit den aenderungen gespeichert
+
+15
+00:02:03,000 --> 00:02:09,900
+und jetzt ist nur noch ein Gnome-Shell-Neustart erforderlich damit das Ganze sichtbar wird
+
+16
+00:02:10,000 --> 00:02:18,900
+Und zwar drueckt man ALT+F2 - r eingeben und ENTER druecken
+
+17
+00:02:19,000 --> 00:02:28,900
+so wird Gnome-Shell neu gestartet und das Accessibility-Icon ist nicht mehr da
+
+18
+00:02:30,000 --> 00:02:32,900
+Tschau und viel Glueck

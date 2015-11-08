@@ -1,0 +1,51 @@
+1
+00:00:05,000 --> 00:00:06,900
+Hallo - In diesem Video ein kleiner Tipp
+
+2
+00:00:07,000 --> 00:00:12,900
+Und zwar moechte ich zeigen wie man im Benutzermenue den Eintrag Ausschalten anklicken kann
+
+3
+00:00:13,000 --> 00:00:22,900
+Das Benutzermenue wird hervorgerufen durch einen Klick auf den Benutzernamen rechts oben im Panel
+
+4
+00:00:23,000 --> 00:00:26,900
+Hier gibt es jetzt die Eintraege Verfuegbar, Beschaeftigt, Eigenes Konto
+
+5
+00:00:27,000 --> 00:00:32,900
+Systemeinstellungen - so kann man schnell zu den Systemeinstellungen springen
+
+6
+00:00:33,000 --> 00:00:37,900
+und es gibt ausserdem noch die Eintraege Bildschirm sperren, Benutzer wechseln, Abmelden
+
+7
+00:00:38,000 --> 00:00:43,900
+Bereitschaft - aber wie der ein oder andere schon gemerkt hat es gibt keinen Eintrag Ausschalten
+
+8
+00:00:44,000 --> 00:00:48,900
+aber es ist ganz einfach den hervorzurufen
+
+9
+00:00:49,000 --> 00:00:53,900
+und zwar drueckt man da ganz einfach auf die Taste Alt
+
+10
+00:00:54,000 --> 00:00:57,900
+und siehe da statt Bereitschaft gibt es jetzt den Eintrag Ausschalten
+
+11
+00:00:58,000 --> 00:01:03,900
+und wenn man dann darauf klickt dann kann man sein System neu starten
+
+12
+00:01:04,000 --> 00:01:10,900
+oder sein System ausschalten - also den Rechner herunterfahren - oder man kann auch Abbrechen
+
+13
+00:01:12,000 --> 00:01:15,900
+Tschau und viel Glueck

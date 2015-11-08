@@ -1,0 +1,95 @@
+1
+00:00:05,000 --> 00:00:09,900
+Hallo - gewisse Tastenaktionen bewirken konkrete Reaktionen
+
+2
+00:00:10,000 --> 00:00:13,900
+bei der neuen Desktop-Umgebung Gnome3
+
+3
+00:00:14,000 --> 00:00:17,900
+In diesem Screencast sollen die Gnome3-Tastenkombinationen vorgefuehrt werden
+
+4
+00:00:18,000 --> 00:00:22,900
+Eine allseits bekannte Tastenkombination ist Alt+Tab
+
+5
+00:00:23,000 --> 00:00:25,900
+Auf das zeitgleiche Bedienen der Tasten Alt und Tab
+
+6
+00:00:26,000 --> 00:00:28,900
+reagiert Gnome3 mit einer Grafik die den schleunigen Wechsel
+
+7
+00:00:29,000 --> 00:00:33,900
+zwischen offenen Anwendungen durchfuehrbar macht
+
+8
+00:00:36,000 --> 00:00:41,900
+Alt und F2 initiiert eine Kommandoeingabe
+
+9
+00:00:42,000 --> 00:00:45,900
+Befehle werden eingegeben und ausgefuehrt
+
+10
+00:00:46,000 --> 00:00:52,900
+wobei r oder restart einen Gnome Shell Neustart in Gang setzt
+
+11
+00:00:53,000 --> 00:01:00,900
+und rt leiert einen Gnome Shell Theme Neustart an
+
+12
+00:01:02,000 --> 00:01:07,900
+Das Betaetigen der Taste Print oder Druck erweckt
+
+13
+00:01:08,000 --> 00:01:12,900
+den Screenshot-Dialog und ein Bildschirmfoto kann folglich gespeichert werden
+
+14
+00:01:13,000 --> 00:01:21,900
+Alt und Print selektiert das aktuelle Fenster fuer den Screenshot
+
+15
+00:01:22,000 --> 00:01:28,900
+Strg + Shift + Alt + R wurde schon in einem anderen Video praesentiert
+
+16
+00:01:29,000 --> 00:01:32,900
+kurz gesagt Bildschirmvideos, Screencasts werden aufgezeichnet
+
+17
+00:01:33,000 --> 00:01:44,900
+Durch Strg + Alt + Runter oder Hoch wandert man von Arbeitsflaeche zu Arbeitsflaeche
+
+18
+00:01:45,000 --> 00:01:48,900
+Wird obendrein die Taste Shift gedrueckt
+
+19
+00:01:49,000 --> 00:01:57,900
+kann das aktive Fenster auf eine andere Arbeitsflaeche verlagert werden
+
+20
+00:02:00,000 --> 00:02:12,900
+Unter Zuhilfenahme der Tasten Alt und F1 ist der Umstieg zwischen Overview und Desktop realisierbar
+
+21
+00:02:15,000 --> 00:02:21,900
+Der Accessibility Switcher wird durch Strg + Alt + Tab ausgeloest
+
+22
+00:02:31,000 --> 00:02:43,900
+Per Alt + ^ ist das Springen von Fenster zu Fenster innerhalb einer Anwendung loesbar
+
+23
+00:02:46,000 --> 00:02:52,900
+innerhalb von Firefox zum Beispiel
+
+24
+00:03:01,000 --> 00:03:04,900
+Tschau und viel Glueck

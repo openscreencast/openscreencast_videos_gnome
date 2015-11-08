@@ -1,0 +1,31 @@
+1
+00:00:05,000 --> 00:00:07,900
+Hallo - In diesem Screencast ein kleiner Tipp
+
+2
+00:00:08,000 --> 00:00:10,900
+Wie manche vielleicht schon bemerkt haben
+
+3
+00:00:11,000 --> 00:00:15,900
+Bei den Systemeinstellungen findet man keine Moeglichkeit
+
+4
+00:00:16,000 --> 00:00:19,900
+um die Autostartprogrammliste zu modifizieren
+
+5
+00:00:20,000 --> 00:00:24,900
+aber es geht doch ganz einfach man drueckt die Tastenkombination Alt+F2
+
+6
+00:00:25,000 --> 00:00:37,900
+und gibt folgenden Befehl ein gnome-session-properties ENTER
+
+7
+00:00:38,000 --> 00:00:46,900
+und hier kann man jetzt, wie man das auch schon kennt, die Startprogrammliste modifizieren
+
+8
+00:00:48,000 --> 00:00:50,900
+Tschau und viel Glueck
