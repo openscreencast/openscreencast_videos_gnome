@@ -1,0 +1,23 @@
+1
+00:00:01,000 --> 00:00:06,500
+Um die Symbole in einem Menü abzuschalten gehe ich wie folgt vor
+
+2
+00:00:07,000 --> 00:00:11,500
+ich klicke auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+3
+00:00:12,000 --> 00:00:16,500
+mache einen Doppelklick auf desktop, einen Doppelklick auf gnome, einen Klick auf interface
+
+4
+00:00:17,000 --> 00:00:21,500
+und entferne das Häckchen beim Schlüssel menus_have_icons
+
+5
+00:00:22,000 --> 00:00:31,500
+oder ich klicke auf System - Einstellungen - Menüs und Werkzeugleisten
+
+6
+00:00:32,000 --> 00:00:39,500
+und entferne hier das Häkchen oder setze das Häkchen bei Symbole in den Menüs anzeigen

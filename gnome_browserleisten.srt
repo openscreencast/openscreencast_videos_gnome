@@ -1,0 +1,35 @@
+1
+00:00:01,000 --> 00:00:04,500
+Um den Aufbau eines Browserfenster zu gestalten
+
+2
+00:00:05,000 --> 00:00:10,500
+klickt man auf Ansicht und man kann die Werkzeugleiste
+
+3
+00:00:11,000 --> 00:00:19,500
+die Seitenleiste, die Adressleiste und die Statusleiste einschalten oder ausschalten
+
+4
+00:00:20,000 --> 00:00:22,500
+das kann man auch im Konfigurationseditor
+
+5
+00:00:23,000 --> 00:00:26,500
+man klickt auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+6
+00:00:27,000 --> 00:00:34,500
+macht einen Doppelklick auf apps, einen Doppelklick auf nautilus, ein Klick auf preferences
+
+7
+00:00:35,000 --> 00:00:43,500
+und dann gibt es vier Schlüssel, alle fangen mit start an
+
+8
+00:00:44,000 --> 00:00:48,500
+einmal für die Werkzeugleiste, einmal für die Statusleiste
+
+9
+00:00:49,000 --> 00:00:54,500
+für die Seitenleiste und für die Adressleiste

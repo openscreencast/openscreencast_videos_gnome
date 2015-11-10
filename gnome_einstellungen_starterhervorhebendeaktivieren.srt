@@ -1,0 +1,23 @@
+1
+00:00:01,000 --> 00:00:05,500
+Wenn man mit dem Mauspfeil auf einen Starter im Panel geht
+
+2
+00:00:06,000 --> 00:00:12,500
+wird der Starter hervorgehoben, also das Symbol wird ein kleines bißchen heller
+
+3
+00:00:13,000 --> 00:00:14,500
+das kann man abschalten
+
+4
+00:00:15,000 --> 00:00:21,500
+Ich klicke dazu auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+5
+00:00:22,000 --> 00:00:27,500
+mache ein Doppelklick auf apps, panel, global
+
+6
+00:00:28,000 --> 00:00:34,500
+und entferne das Häkchen beim Schlüssel highlight_launchers_on_mouseover

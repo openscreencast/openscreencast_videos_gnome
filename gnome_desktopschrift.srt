@@ -1,0 +1,19 @@
+1
+00:00:01,000 --> 00:00:05,500
+Um die Schriftart und die Schriftgrösse auf dem Desktop festzulegen
+
+2
+00:00:06,000 --> 00:00:10,500
+klickt man auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+3
+00:00:11,000 --> 00:00:17,500
+macht einen Doppelklick auf apps, einen Doppelklick auf nautilus, ein Klick auf preferences
+
+4
+00:00:18,000 --> 00:00:21,500
+geht zum Schlüssel desktop_font
+
+5
+00:00:22,000 --> 00:00:34,500
+und setzt jetzt hier als erstes die Schriftart, Leerzeichen und die Schriftgrösse fest ENTER

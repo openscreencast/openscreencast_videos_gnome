@@ -1,0 +1,19 @@
+1
+00:00:01,000 --> 00:00:06,500
+Um die Schriftart und Schriftgrösse z.B. in einem Menü oder auf dem Desktop zu ändern
+
+2
+00:00:07,000 --> 00:00:11,500
+muss man nicht immer gleich den Konfigurationseditor benutzen, das geht auch einfach
+
+3
+00:00:12,000 --> 00:00:16,500
+man klickt auf System - Einstellungen - und klickt auf Schrift
+
+4
+00:00:17,000 --> 00:00:21,500
+oder man klickt auf Anwendungen - Zubehör - Terminal
+
+5
+00:00:22,000 --> 00:00:32,500
+und gibt den Befehl gnome-font-properties ENTER ein

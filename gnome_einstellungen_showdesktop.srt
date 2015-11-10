@@ -1,0 +1,27 @@
+1
+00:00:01,000 --> 00:00:06,500
+Auf dem Desktop werden die Symbole Computer, Persönlicher Ordner und Müll angezeigt
+
+2
+00:00:07,000 --> 00:00:15,500
+ebenso werden die Dateien die im Persönlichen Ordner im Verzeichnis Desktop angesiedelt sind angezeigt
+
+3
+00:00:16,000 --> 00:00:19,500
+Das Anzeigen kann ich abschalten
+
+4
+00:00:20,000 --> 00:00:25,500
+Dazu klicke ich auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+5
+00:00:26,000 --> 00:00:32,500
+mache ein Doppelklick auf apps, auf nautilus, klicke einmal auf preferences
+
+6
+00:00:32,000 --> 00:00:41,000
+und gehe zum Schlüssel show_desktop, entferne dort das Häkchen
+
+7
+00:00:41,100 --> 00:00:42,500
+und es sind keine Symbole mehr zu sehen

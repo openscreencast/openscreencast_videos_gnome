@@ -1,0 +1,27 @@
+1
+00:00:01,000 --> 00:00:06,500
+Beim Nautilusfenster als Browserfenster gibt es eine Adressleiste
+
+2
+00:00:07,000 --> 00:00:12,500
+Wo es ganz links einen Button gibt, wo man wählen kann zwischen den Knöpfen und dem Eingabefeld
+
+3
+00:00:13,000 --> 00:00:18,500
+Standard sind die Knöpfe
+
+4
+00:00:19,000 --> 00:00:22,500
+Möchte man als Standard das Eingabefeld, geht man wie folgt vor
+
+5
+00:00:23,000 --> 00:00:27,500
+Man klickt auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+6
+00:00:28,000 --> 00:00:36,500
+macht einen Doppelklick auf apps, ein Doppelklick auf nautilus, ein Klick auf preferences
+
+7
+00:00:37,000 --> 00:00:45,500
+und setzt ein Häkchen beim Schlüssel always_use_location_entry

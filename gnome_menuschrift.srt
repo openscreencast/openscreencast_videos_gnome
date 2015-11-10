@@ -1,0 +1,19 @@
+1
+00:00:01,000 --> 00:00:06,500
+Um die Schriftart und die Schriftgrösse in einem Menü festzulegen
+
+2
+00:00:07,000 --> 00:00:12,500
+geht man wie folgt vor, man klickt auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+3
+00:00:13,000 --> 00:00:18,500
+macht einen Doppelklick auf desktop, gnome, klickt einmal auf interface
+
+4
+00:00:19,000 --> 00:00:24,500
+und setzt beim Schlüssel font_name einen neuen Wert
+
+5
+00:00:25,000 --> 00:00:32,500
+als erstes die Schriftart, Leerzeichen und die Schriftgrösse ENTER

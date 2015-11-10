@@ -1,0 +1,27 @@
+1
+00:00:01,000 --> 00:00:07,500
+Um den Stil einer Werkzeugleiste zu ändern, gehe ich folgende Schritte
+
+2
+00:00:08,000 --> 00:00:11,500
+Ich klicke auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+3
+00:00:12,000 --> 00:00:16,500
+mache einen Doppelklick auf desktop, einen Doppelklick auf gnome, ein Klick auf interface
+
+4
+00:00:17,000 --> 00:00:21,500
+und setze einen neuen Wert beim Schlüssel toolbar_style
+
+5
+00:00:22,000 --> 00:00:30,500
+ich ändere den Wert jetzt hier mal in text, so wird nur noch der Text angezeigt, keine Symbole
+
+6
+00:00:31,000 --> 00:00:37,500
+oder ich klicke auf System - Einstellungen - Menüs und Werkzeugleisten
+
+7
+00:00:38,000 --> 00:00:47,500
+und kann jetzt hier einen neuen Wert setzen, z.B. wieder Text unter Symbolen

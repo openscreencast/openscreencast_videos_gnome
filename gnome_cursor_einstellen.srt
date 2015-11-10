@@ -1,0 +1,27 @@
+1
+00:00:01,000 --> 00:00:06,500
+Wie kann ich es einstellen das der Cursor z.B. beim Texteditor
+
+2
+00:00:07,000 --> 00:00:10,500
+blinkt oder blinkt und mit welcher Blinkfrequenz
+
+3
+00:00:11,000 --> 00:00:15,500
+Dazu klicke ich auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+4
+00:00:16,000 --> 00:00:20,500
+mache einen Doppelklick auf desktop, einen Doppelklick auf gnome, ein Klick auf interface
+
+5
+00:00:21,000 --> 00:00:26,500
+und hierzu gibt es die Schlüssel cursor_blink und cursor_blink_time
+
+6
+00:00:27,000 --> 00:00:32,500
+nehme ich hier (cursor_blink) das Häkchen weg blinkt der Cursor garnicht mehr
+
+7
+00:00:33,000 --> 00:00:39,500
+und für die Blinkfrequenz setze ich hier (cursor_blink_time) einen neuen Wert

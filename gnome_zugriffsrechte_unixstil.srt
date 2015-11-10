@@ -1,0 +1,31 @@
+1
+00:00:01,000 --> 00:00:07,500
+Um die Zugriffsrechte einer Datei festzulegen, klickt man mit der rechten Maustaste auf eine Datei
+
+2
+00:00:08,000 --> 00:00:13,500
+geht auf Eigenschaften, klickt auf den Reiter Zugriffsrechte und das Einstellungsbild sieht dann so aus
+
+3
+00:00:14,000 --> 00:00:16,500
+das Einstellungsbild kann man aber auch verändern
+
+4
+00:00:17,000 --> 00:00:19,500
+das heißt die Zugriffsrechte kann man dann nach Unixart festlegen
+
+5
+00:00:20,000 --> 00:00:26,500
+um das zu erreichen klickt man auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+6
+00:00:27,000 --> 00:00:32,500
+macht einen Doppelklick auf apps, einen Doppelklick auf nautilus, ein Klick auf preferences
+
+7
+00:00:33,000 --> 00:00:40,500
+geht zum Schlüssel show_advanced_permissions, setzt ein Häkchen
+
+8
+00:00:41,000 --> 00:00:49,500
+das war es auch schon, das Einstellungsbild sieht dann so aus

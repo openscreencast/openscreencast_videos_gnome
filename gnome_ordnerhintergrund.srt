@@ -1,0 +1,75 @@
+1
+00:00:01,000 --> 00:00:04,500
+Den Hintergrund eines Ordners kann ich beliebig gestalten
+
+2
+00:00:05,000 --> 00:00:09,500
+Ich kann die Hintergrundfarbe ändern, das wäre hier Standard weiß
+
+3
+00:00:10,000 --> 00:00:14,500
+oder ich kann sogar ein Hintergrundbild einstellen
+
+4
+00:00:15,000 --> 00:00:17,500
+Die Standardwerte lege ich wie folgt fest
+
+5
+00:00:18,000 --> 00:00:22,500
+Ich klicke auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+6
+00:00:23,000 --> 00:00:28,500
+mache einen Doppelklick auf apps, einen Doppelklick auf nautilus, ein Klick auf preferences
+
+7
+00:00:29,000 --> 00:00:33,500
+setze ein Häkchen beim Schlüssel background_set
+
+8
+00:00:34,000 --> 00:00:40,500
+Hier wäre die Hintergrundfarbe, das wäre der Schlüssel background_color
+
+9
+00:00:41,000 --> 00:00:51,500
+ändere das von weiß in schwarz, also #ffffff in #000000
+
+10
+00:00:52,000 --> 00:00:59,500
+Beim Schlüssel background_filename kann ich ein Hintergrundbild einstellen
+
+11
+00:01:00,000 --> 00:01:08,500
+das ist jetzt für alle Ordner
+
+12
+00:01:09,000 --> 00:01:14,500
+Man kann aber auch jeden Ordner einzeln einstellen
+
+13
+00:01:15,000 --> 00:01:21,500
+Dazu klickt man jeweils auf Bearbeiten - Hintergründe und Embleme
+
+14
+00:01:22,000 --> 00:01:26,500
+Hier kann man sich jetzt eine Farbe aussuchen oder ein Muster
+
+15
+00:01:27,000 --> 00:01:38,500
+klickt es an und zieht es zum richtigen Ordner, per Drag and Drop funktioniert das
+
+16
+00:01:39,000 --> 00:01:47,500
+Das geht auch beim eigentlichen Desktophintergrund
+
+17
+00:01:48,000 --> 00:02:00,500
+Um die Standardwerte wieder zurückzuholen gibt es das Zurücksetzen
+
+18
+00:02:01,000 --> 00:02:07,500
+Man klickt Zurücksetzen an, behält den Klick bei
+
+19
+00:02:08,000 --> 00:02:18,500
+und zieht es wieder zum jeweiligen Ordner oder zum Desktophintergrund

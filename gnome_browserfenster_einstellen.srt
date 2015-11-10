@@ -1,0 +1,31 @@
+1
+00:00:01,000 --> 00:00:04,500
+Um ein Nautilusfenster als Browserfenster zu starten
+
+2
+00:00:05,000 --> 00:00:11,500
+klickt man auf Anwendungen - Systemwerkzeuge - Datei-Browser
+
+3
+00:00:12,000 --> 00:00:16,500
+oder man klickt auf Anwendungen - Zubehör - Terminal
+
+4
+00:00:17,000 --> 00:00:27,500
+und gibt den Befehl nautilus --browser ENTER ein
+
+5
+00:00:28,000 --> 00:00:33,500
+oder um alle Fenster als Browserfenster zu starten
+
+6
+00:00:34,000 --> 00:00:39,500
+klickt man auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+7
+00:00:40,000 --> 00:00:47,500
+macht einen Doppelklick auf apps, einen Doppelklick auf nautilus, ein Klick auf preferences
+
+8
+00:00:48,000 --> 00:00:52,500
+und setzt beim Schlüssel always_use_browser ein Häkchen
