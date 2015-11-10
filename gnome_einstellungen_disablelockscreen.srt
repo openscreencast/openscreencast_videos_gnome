@@ -1,0 +1,15 @@
+1
+00:00:01,000 --> 00:00:09,500
+Die Funktion Bildschirm sperren unter System kann ich mit folgenden Schritten entfernen
+
+2
+00:00:10,000 --> 00:00:14,500
+Ich klicke auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+3
+00:00:15,000 --> 00:00:22,500
+mache ein Doppelklick auf apps, ein Doppelklick auf panel, klicke einmal auf global
+
+4
+00:00:23,000 --> 00:00:22,500
+und setze ein Häkchen beim Schlüssel disable_lock_screen

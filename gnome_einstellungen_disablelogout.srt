@@ -1,0 +1,15 @@
+1
+00:00:01,000 --> 00:00:08,500
+Die Menüeinträge Ausschalten und Abmelden kann ich wie folgt deaktivieren
+
+2
+00:00:09,000 --> 00:00:13,500
+Ich klicke auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+3
+00:00:14,000 --> 00:00:19,500
+mache ein Doppelklick auf apps, ein Doppelklick auf panel, klicke einmal auf global
+
+4
+00:00:20,000 --> 00:00:28,500
+und setze ein Häkchen beim Schlüssel disable_log_out

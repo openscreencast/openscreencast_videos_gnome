@@ -1,0 +1,27 @@
+1
+00:00:01,000 --> 00:00:06,500
+Welche Symbole auf dem Desktop sichtbar seien sollen kann man wie folgt festlegen
+
+2
+00:00:07,000 --> 00:00:11,500
+Man klickt auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+3
+00:00:12,000 --> 00:00:18,500
+Macht einen Doppelklick auf apps, ein Doppelklick auf nautilus, ein Klick auf desktop
+
+4
+00:00:19,000 --> 00:00:22,500
+Nun kann man hier festlegen ob der Computer (computer_icon_visible) sichtbar sein soll
+
+5
+00:00:23,000 --> 00:00:29,500
+der Persönliche Ordner (home_icon_visible), der Mülleimer (trash_icon_visible) oder das Netzwerk (network_icon_visible)
+
+6
+00:00:30,000 --> 00:00:38,500
+Wenn einem der Namen nicht gefällt macht man jeweils auf den richtigen Schlüssel (computer_icon_name) einen Doppelklick
+
+7
+00:00:39,000 --> 00:00:56,500
+Ändert den Typ in Zeichenkette und setzt den neuen Wert z.B. als Ersatz für Computer, OK

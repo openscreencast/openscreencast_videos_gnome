@@ -1,0 +1,47 @@
+1
+00:00:01,000 --> 00:00:06,500
+Den Konfigurationseditor gconf-editor für den Einstellungsdienst gconf
+
+2
+00:00:07,000 --> 00:00:10,500
+kann man wie folgt bei Fedora Core installieren
+
+3
+00:00:11,000 --> 00:00:14,500
+Man klickt auf Anwendungen - Software hinzufügen/entfernen
+
+4
+00:00:15,000 --> 00:00:19,500
+gibt das Admin-Passwort ein und bestätigt mit den Button OK
+
+5
+00:00:20,000 --> 00:00:29,500
+Klickt unter dem Reiter Durchsuchen auf Desktopumgebungen, rechts auf Gnome Desktopumgebung
+
+6
+00:00:30,000 --> 00:00:37,500
+klickt auf den Button Optionale Pakete, sucht sich das Paket gconf-editor heraus, setzt ein Häkchen
+
+7
+00:00:38,000 --> 00:00:45,500
+klickt auf den Button schließen, anschließend auf den Button Anwenden
+
+8
+00:00:46,000 --> 00:00:49,500
+Weiter, so wird das Paket heruntergeladen und installiert
+
+9
+00:00:55,000 --> 00:01:01,500
+OK, Fertig mit der Installation
+
+10
+00:01:02,000 --> 00:01:04,500
+Das Programm kann man jetzt wie folgt starten
+
+11
+00:01:05,000 --> 00:01:09,500
+man klickt auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+12
+00:01:10,000 --> 00:01:17,500
+Im Textmodus kann man das Programm starten mit dem Befehl gconf-editor ENTER

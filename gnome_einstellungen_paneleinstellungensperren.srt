@@ -1,0 +1,19 @@
+1
+00:00:01,000 --> 00:00:10,500
+Paneleinstellungsmöglichkeiten wie z.B. ein Objekt aus dem Panel entfernen, oder verschieben, usw.
+
+2
+00:00:11,000 --> 00:00:13,500
+kann ich auf folgendem Wege sperren
+
+3
+00:00:14,000 --> 00:00:18,500
+Ich klicke auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+4
+00:00:19,000 --> 00:00:26,500
+klicke doppelt auf apps, klicke doppelt auf panel, klicke einmal auf global
+
+5
+00:00:27,000 --> 00:00:32,500
+und setze ein Häkchen beim Schlüssel locked_down

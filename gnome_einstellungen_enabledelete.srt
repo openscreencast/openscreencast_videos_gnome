@@ -1,0 +1,39 @@
+1
+00:00:01,000 --> 00:00:04,500
+Möchte man bei Gnome eine Datei löschen, geht man wie folgt vor
+
+2
+00:00:05,000 --> 00:00:09,500
+man klickt die Datei mit der rechten Maustaste an und es gibt die Funktion in den Müll verschieben
+
+3
+00:00:10,000 --> 00:00:18,500
+so landet die Datei vorerst im Mülleimer, nun kann man den Müll leeren
+
+4
+00:00:19,000 --> 00:00:22,500
+Meint man der Mülleimer ist nicht notwendig kann man wie folgt vorgehen
+
+5
+00:00:23,000 --> 00:00:28,500
+Man klickt auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+6
+00:00:29,000 --> 00:00:34,500
+Macht ein Doppelklick auf apps, ein Doppelklick auf nautilus, ein Klick auf preferences
+
+7
+00:00:35,000 --> 00:00:39,500
+und setzt ein Häkchen beim Schlüssel enable_delete
+
+8
+00:00:40,000 --> 00:00:47,500
+nun klickt man eine Datei mit der rechten Maustaste an wenn man sie löschen will
+
+9
+00:00:48,000 --> 00:00:53,500
+und es gibt die Funktion in den Müll verschieben und die Funktion löschen
+
+10
+00:00:54,000 --> 00:00:53,500
+so gibt es keine Zwischenstation namens Mülleimer mehr

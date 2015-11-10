@@ -1,0 +1,23 @@
+1
+00:00:01,000 --> 00:00:06,500
+Eine Datei oder ein Verzeichnis wird bei Gnome mit einem Doppelklick geöffnet
+
+2
+00:00:07,000 --> 00:00:10,500
+Wer meint ein Klick reicht aus, muß folgende Schritte absolvieren
+
+3
+00:00:11,000 --> 00:00:15,500
+Man klickt auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+4
+00:00:16,000 --> 00:00:23,500
+Macht einen Doppelklick auf apps, ein Doppelklick auf nautilus, klickt einmal auf preferences
+
+5
+00:00:24,000 --> 00:00:28,500
+Und ändert jetzt hier den Wert des Schlüssels click_policy
+
+6
+00:00:29,000 --> 00:00:37,500
+double für Doppelklick und single für Einzelklick

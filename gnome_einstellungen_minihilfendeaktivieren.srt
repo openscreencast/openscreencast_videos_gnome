@@ -1,0 +1,27 @@
+1
+00:00:01,000 --> 00:00:08,500
+Minihilfen die zum Vorschein kommen wenn man mit dem Mauspfeil auf ein Panelobjekt zeigt
+
+2
+00:00:09,000 --> 00:00:12,500
+z.B. hier Webbrowser im Web surfen
+
+3
+00:00:13,000 --> 00:00:15,500
+kann man wie folgt abschalten
+
+4
+00:00:16,000 --> 00:00:21,500
+man klickt auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+5
+00:00:22,000 --> 00:00:30,500
+macht ein Doppelklick auf apps, anschließend auf panel, global
+
+6
+00:00:31,000 --> 00:00:37,500
+und entfernt das Häkchen beim Schlüssel tooltips_enabled
+
+7
+00:00:38,000 --> 00:00:46,500
+das wars, es kommen keine Minihilfen mehr zum Vorschein
