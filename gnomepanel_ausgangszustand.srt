@@ -1,0 +1,19 @@
+1
+00:00:01,000 --> 00:00:04,500
+Um das Gnome-Panel in den Ausgangszustand zurueckzubringen
+
+2
+00:00:05,000 --> 00:00:12,500
+wird ein Terminal gestartet, Klick auf Anwendungen - Zubehoer - Terminal
+
+3
+00:00:13,000 --> 00:00:52,500
+und folgender Befehl wird eingegeben: gconftool-2 --recursive-unset /apps/panel ENTER
+
+4
+00:00:53,000 --> 00:01:15,500
+nun meldet man sich neu an oder man gibt den Befehl pkill gnome-panel ENTER ein
+
+5
+00:01:16,000 --> 00:01:19,500
+Tschau und viel Glueck
