@@ -1,0 +1,123 @@
+1
+00:00:01,000 --> 00:00:06,500
+Hello, Hello, in diesem Screencast möchte ich den lockdown editor pessulus für Gnome vorstellen
+
+2
+00:00:07,000 --> 00:00:11,500
+pessulus ist in Python geschrieben und ein Interface um bestimmte Funktionen zu sperren
+
+3
+00:00:12,000 --> 00:00:16,500
+wie z.B. das Abmelden oder das Sperren des Bildschirms
+
+4
+00:00:17,000 --> 00:00:20,500
+Welche Schlüssel vom gconf-Dienst dahinter stecken werde ich zeigen
+
+5
+00:00:21,000 --> 00:00:27,500
+Man kann diese Einstellungen auch per Konfiguratioseditor erreichen, pessulus macht es halt etwas einfacher
+
+6
+00:00:28,000 --> 00:00:31,500
+pessulus ist bei der Standardinstalltion nicht mit dabei
+
+7
+00:00:32,000 --> 00:00:35,500
+das Programm muss also mit pirut nachinstalliert werden
+
+8
+00:00:36,000 --> 00:00:41,500
+Ich klicke auf Anwendungen - Software hinzufügen/entfernen oder gebe den Befehl pirut ein
+
+9
+00:00:42,000 --> 00:00:49,500
+gebe das Adminpasswort ein, OK, gehe zum Reiter Durchsuchen
+
+10
+00:00:50,000 --> 00:00:58,500
+klicke auf Grundsystem, rechts auf Verwaltungswerkzeuge
+
+11
+00:00:59,000 --> 00:01:04,500
+klicke auf den Button optionale Pakete, setze ein Häckchen beim Paket pessulus
+
+12
+00:01:05,000 --> 00:01:12,500
+schliesse das Fenster, klicke auf den Button Anwenden, auf den Button Weiter
+
+13
+00:01:13,000 --> 00:01:16,500
+warte bis die Installation vollständig ist, dann kann ich pessulus starten
+
+14
+00:01:17,000 --> 00:01:26,500
+Ich klicke auf Anwendungen - Zubehör - Terminal und gebe den Befehl pessulus ENTER ein
+
+15
+00:01:27,000 --> 00:01:35,500
+Ich kann jetzt im Allgemein, im Panel, im Browser und beim Bildschirmschoner Funktionen sperren
+
+16
+00:01:36,000 --> 00:01:43,500
+Ich werde demonstrieren wie man einige Funktionen beim Panel sperrt, ich klicke also auf Panel
+
+17
+00:01:44,000 --> 00:01:52,500
+Häckchen bei das Panel sperren deaktiviert alle Einstellungsmöglichkeiten beim Panel
+
+18
+00:01:53,000 --> 00:01:58,500
+folgender Schlüssel steckt dahinter, auf zum Konfigurationseditor
+
+19
+00:01:59,000 --> 00:02:03,500
+Ich klicke auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+20
+00:02:04,000 --> 00:02:12,500
+Mache einen Doppelklick auf apps, einen Doppelklick auf panel, ein Klick auf global
+
+21
+00:02:13,000 --> 00:02:21,500
+Schlüssel locked_down aktiviert macht dies möglich
+
+22
+00:02:22,000 --> 00:02:33,500
+Häckchen bei Sperren des Bildschirms deaktivieren schaltet Bildschirm sperren unter System aus
+
+23
+00:02:34,000 --> 00:02:42,500
+Schlüssel disable_lock_screen existiert hierzu
+
+24
+00:02:43,000 --> 00:02:53,500
+Häckchen bei Abmelden deaktivieren blockiert das Abmelden unter System
+
+25
+00:02:54,000 --> 00:03:03,500
+Schlüssel disable_log_out ist dafür verantwortlich
+
+26
+00:03:04,000 --> 00:03:12,500
+Außerdem kann man einzelne Objekte die man zum Panel hinzufügen kann
+
+27
+00:03:13,000 --> 00:03:22,500
+wie z.B. die Befehlszeile, aus der Angebotsliste streichen
+
+28
+00:03:23,000 --> 00:03:33,500
+indem man ein Häckchen setzt, Bsp. die Befehlszeile, ich setze hier ein Häckchen
+
+29
+00:03:34,000 --> 00:03:41,500
+und dann existiert das Objekt in der Angebotsliste nicht mehr
+
+30
+00:03:42,000 --> 00:03:55,500
+Dafür gibt es den Schlüssel disabled_applets
+
+31
+00:04:01,000 --> 00:04:08,500
+Gut das wars schon wieder, viel Spass beim Probieren
