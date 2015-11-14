@@ -1,0 +1,163 @@
+1
+00:00:01,000 --> 00:00:07,500
+Hallo, heute möchte ich zeigen wie man das Hauptmenü modifiziert
+
+2
+00:00:08,000 --> 00:00:17,500
+Ein Programm hilft mir dabei. Dieses Programm ist zu finden unter System - Einstellungen - Weitere Präferenzen - Menüstruktur
+
+3
+00:00:20,000 --> 00:00:29,500
+Oder ich klicke mit der rechten Maustaste auf das Menü und klicke anschließend auf Menüs bearbeiten
+
+4
+00:00:30,000 --> 00:00:33,500
+Desgleichen kann ich auch das Programm mit einem Kommando starten
+
+5
+00:00:34,000 --> 00:00:44,500
+Ich drücke gleichzeitig die Tasten Alt und F2 und gebe ein alacarte ENTER
+
+6
+00:00:45,000 --> 00:00:51,500
+Ich kann durch ein Häkchen (ganz vorne) bestimmen ob der Menüeintrag angezeigt wird oder nicht
+
+7
+00:00:52,000 --> 00:01:00,500
+Als Bsp. nehme ich hier mal das Häkchen bei Word Processor weg, und Word Processor ist nicht mehr da
+
+8
+00:01:01,000 --> 00:01:07,500
+Ich füge das Häkchen wieder hinzu und der Eintrag ist wieder im Menü
+
+9
+00:01:08,000 --> 00:01:16,500
+Ich kann die Reihenfolge der Menüeinträge beeinflußen mit den Buttons "Nach oben verschieben" "Nach unten verschieben"
+
+10
+00:01:17,000 --> 00:01:28,500
+Ich klicke ein Eintrag an, betätige nun als Bsp. "Nach oben verschieben" und Word Processor ist über Spreadsheet
+
+11
+00:01:29,000 --> 00:01:37,500
+Ich betätige nun den Button "Nach unten verschieben" und Word Processor ist wieder ganz unten
+
+12
+00:01:38,000 --> 00:01:41,500
+Menüeinträge lassen sich auch ganz entfernen
+
+13
+00:01:42,000 --> 00:01:47,500
+Man klickt mit der rechten Maustaste auf den Eintrag und wählt löschen
+
+14
+00:01:48,000 --> 00:01:55,500
+Ich kann durch das Klicken auf den Button "Neue Trennlinie" eine Linie an eine bestimmte Stelle bringen
+
+15
+00:01:56,000 --> 00:02:05,500
+Ich klicke Spreadsheet an und tätige nun den Button "Neue Trennlinie" und es entsteht eine Linie zwischen Spreadsheet und Word Processor
+
+16
+00:02:06,000 --> 00:02:11,500
+Die kann ich wieder entfernen. Ich klicke mit der rechten Maustaste drauf und gehe auf Löschen
+
+17
+00:02:17,000 --> 00:02:22,500
+Ich kann ein neues Menü hinzufügen mit dem Button "Neues Menü"
+
+18
+00:02:23,000 --> 00:02:29,500
+oder einen neuen Menüeintrag einleiten mit dem Button "Neuer Eintrag"
+
+19
+00:02:30,000 --> 00:02:40,500
+Als Beispiel klicke ich auf "Neuer Eintrag", gebe einen Namen ein, einen Kommentar
+
+20
+00:02:41,000 --> 00:02:54,500
+und den entsprechenden Befehl, Bestätigung mit OK und der neue Eintrag ist unter Word Processor
+
+21
+00:02:56,000 --> 00:03:03,500
+Jetzt noch einen kleinen Tip. Möchte man eine Verknüpfung zu einem Programm (vorhanden im Menü) auf den Desktop
+
+22
+00:03:04,000 --> 00:03:11,500
+sucht man sich das Programm im Menü heraus, klickt aus das Programm, behält den Klick bei
+
+23
+00:03:12,000 --> 00:03:19,500
+und zieht das Programm auf den Desktop und lässt los, eine Verknüpfung entsteht automatisch
+
+24
+00:03:20,000 --> 00:03:35,500
+Das gleiche geht auch indem ich mit rechten Maustaste auf das Programm klicke und gehe dann auf "Als Starter zum Desktop hinzufügen"
+
+25
+00:03:40,000 --> 00:03:46,500
+Am Ende noch kurz ein Beispiel wie man per Hand einen Menüeintrag verschiebt
+
+26
+00:03:47,000 --> 00:03:57,500
+Ich werde versuchen den Menüeintrag "Texteditor" unter Anwendungen - Zubehör zu verschieben nach Anwendungen - Büro
+
+27
+00:03:58,000 --> 00:04:06,500
+Als erstes ich starte ein Terminal, gehe auf Anwendungen - Zubehör - Terminal
+
+28
+00:04:07,000 --> 00:04:20,500
+Zweitens ich brauche Administratorrechte. Ich tippe ein su ENTER, gebe das Adminpasswort ein ENTER
+
+29
+00:04:21,000 --> 00:04:40,500
+Ich wechsle zum Verzeichnis /usr/share/applications, gebe ein cd /usr/share/applications ENTER
+
+30
+00:04:41,000 --> 00:04:49,500
+Hier gibt es zu jedem Desktop-Programm eine Textdatei mit der Endung .desktop
+
+31
+00:04:50,000 --> 00:04:54,500
+Diese Dateien beinhalten Einträge bezüglich der Menüstruktur
+
+32
+00:04:55,000 --> 00:05:01,500
+Die Datei gnome-gedit.desktop (für den Texteditor) werde ich nun ändern
+
+33
+00:05:02,000 --> 00:05:23,500
+Ich tippe ein vi gnome-gedit.desktop ENTER (vi ist übrigens ein Texteditor für den Textmodus)
+
+34
+00:05:24,000 --> 00:05:39,500
+gehe zur Zeile mit dem Anfang Categories (ganz unten)
+
+35
+00:05:40,000 --> 00:05:54,500
+Drücke die Taste i, so kann ich den Text ändern und ersetze Utility durch Office
+
+36
+00:05:58,000 --> 00:06:15,500
+Drücke die Taste ESC und danach :wq ENTER (w für schreiben und q für Texteditor beenden)
+
+37
+00:06:20,000 --> 00:06:32,500
+und es hat geklappt der Texteditor ist jetzt unter Anwendungen - Office und nicht mehr unter Anwendungen - Zubehör
+
+38
+00:06:36,000 --> 00:06:50,500
+Um den Adminmodus zu verlassen und das Fenster zu schließen gebe ich exit ENTER exit ENTER ein
+
+39
+00:06:53,000 --> 00:07:01,500
+Und nicht vergessen, ich habe das heute nicht gemacht, wenn man an einer Datei Änderungen vornimmt
+
+40
+00:07:02,000 --> 00:07:06,500
+immer vorher eine Sicherheitskopie der betreffenden Datei herstellen
+
+41
+00:07:08,000 --> 00:07:15,500
+Oky Doky, Ende gut alles gut, bis zum nächsten mal, Tschau
