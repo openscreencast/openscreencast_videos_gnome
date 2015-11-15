@@ -1,0 +1,39 @@
+1
+00:00:10,000 --> 00:00:12,500
+Nautilus - Modus aendern
+
+2
+00:00:13,000 --> 00:00:23,500
+ueblicherweise wird jedesmal bei einem Doppelklick auf einen Ordner der Ordner im selben Fenster geoeffnet
+
+3
+00:00:24,000 --> 00:00:28,500
+Moechte man dass sich jedesmal ein neues Fenster oeffnet
+
+4
+00:00:29,000 --> 00:00:35,500
+klickt man auf Bearbeiten - Einstellungen, klickt auf Verhalten
+
+5
+00:00:36,000 --> 00:00:45,500
+und entfernt das Haekchen bei Immer in Browser-Fenstern oeffnen
+
+6
+00:01:08,000 --> 00:01:15,500
+Wer den Zielort direkt eingeben moechte klickt auf das Symbol unter den Button Zurueck
+
+7
+00:01:22,000 --> 00:01:31,500
+Die Seitenleiste gehoert zum Standard und zeigt je nach Wunsch Orte
+
+8
+00:01:32,000 --> 00:01:40,500
+Informationen zum Ordner, eine Baumansicht
+
+9
+00:01:41,000 --> 00:01:55,500
+eine Chronik, die zuletzt aufgerufenen Verzeichnisse, Notizen und Embleme
+
+10
+00:01:56,000 --> 00:02:02,500
+Tschau und Viel Glueck

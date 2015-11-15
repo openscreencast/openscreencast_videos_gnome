@@ -1,0 +1,75 @@
+1
+00:00:10,000 --> 00:00:12,900
+gnome-terminal - den Hintergrund aendern
+
+2
+00:00:13,000 --> 00:00:17,900
+Um den freien Terminalemulator von gnome, gnome-terminal zu starten
+
+3
+00:00:18,000 --> 00:00:23,900
+klickt man auf Anwendungen, waehlt Zubehoer und klickt abschliessend auf Terminal
+
+4
+00:00:24,000 --> 00:00:27,900
+Um den Hintergrund nach seinen Vorstellungen zu modifizieren
+
+5
+00:00:28,000 --> 00:00:34,900
+waehlt man im Menue Bearbeiten den Eintrag Profileinstellungen
+
+6
+00:00:35,000 --> 00:00:45,900
+klickt auf den Reiter Hintergrundtyp und kann nun entweder ein Hintergrundbild waehlen
+
+7
+00:00:46,000 --> 00:00:50,900
+den Hintergrund transparent, durchsichtig machen
+
+8
+00:00:51,000 --> 00:00:54,900
+oder eine Hintergrundfarbe einstellen
+
+9
+00:00:55,000 --> 00:00:57,900
+wobei man da auf den Reiter Farben zurueckspringen muss
+
+10
+00:00:58,000 --> 00:01:02,900
+hier nimmt man das Haekchen bei Farben vom System-Thema verwenden weg
+
+11
+00:01:03,000 --> 00:01:11,900
+und kann jetzt eine Hintergrundfarbe waehlen und eine Textfarbe
+
+12
+00:01:17,000 --> 00:01:23,900
+per gconf-editor sind die Einstellungen ebenfalls moeglich
+
+13
+00:01:24,000 --> 00:01:35,900
+man gibt gconf-editor Enter ein um den gconf-editor zu starten
+
+14
+00:01:36,000 --> 00:02:05,900
+unter /apps/gnome-terminal/profiles/Default sind nun die gleichen Einstellungen moeglich
+
+15
+00:02:09,000 --> 00:02:13,900
+Mit dem Tool gconftool-2 kann man die Werte auch aendern
+
+16
+00:02:14,000 --> 00:02:19,900
+zum Beispiel einen transparenten Hintergrund hervorzuzaubern mit dem Befehl
+
+17
+00:02:20,000 --> 00:03:09,900
+gconftool-2 -s /apps/gnome-terminal/profiles/Default/background_type --type=string transparent
+
+18
+00:03:10,000 --> 00:03:20,900
+um dies wieder rueckgaengig zu machen setzt man einfach den Wert solid
+
+19
+00:03:26,000 --> 00:03:29,900
+Tschau und viel Glueck

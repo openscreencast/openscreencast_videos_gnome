@@ -1,0 +1,35 @@
+1
+00:00:10,000 --> 00:00:13,500
+Nautilus - Verknuepfungen
+
+2
+00:00:14,000 --> 00:00:20,500
+Jeder Dateityp, erkennbar durch die Dateiendung und dem Symbol
+
+3
+00:00:21,000 --> 00:00:25,500
+ist mit bestimmten Programmen verknuepft die mit dem Dateityp etwas anfangen koennen
+
+4
+00:00:27,000 --> 00:00:30,500
+Welche Programme das sind und welches das Standardprogramm ist
+
+5
+00:00:31,000 --> 00:00:36,500
+kann man festlegen, man klickt mit der rechten Maustaste auf eine Datei mit einem bestimmten Dateityp
+
+6
+00:00:37,000 --> 00:00:44,500
+und klickt auf Eigenschaften, wechselt zum Reiter Oeffnen mit
+
+7
+00:00:45,000 --> 00:00:50,500
+und kann dort Programme hinzufuegen und entfernen mit dem die Datei geoeffnet werden kann
+
+8
+00:00:51,000 --> 00:0:59,500
+das markierte Programm ist das Standardprogramm das beim Doppelklick auf die Datei gestartet wird
+
+9
+00:01:08,000 --> 00:01:12,500
+Tschau und viel Glueck
