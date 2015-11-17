@@ -1,0 +1,79 @@
+1
+00:00:05,000 --> 00:00:07,900
+Hallo - In diesem Screencast ein kleiner Tipp
+
+2
+00:00:08,000 --> 00:00:11,900
+Derjenige der lieber mit einem Gnome2-aehnlichen Design arbeiten moechte
+
+3
+00:00:13,000 --> 00:00:17,900
+kann folgendes tun - ein Klick auf den Benutzernamen, oben rechts
+
+4
+00:00:18,000 --> 00:00:25,900
+dann auf Systemeinstellungen - Systeminformation - Grafik
+
+5
+00:00:26,000 --> 00:00:32,900
+und hier kann man jetzt anklicken Erzwungener Rueckfall-Modus - einfach AN
+
+6
+00:00:33,000 --> 00:00:42,900
+dann einfach neu Anmelden oder neu Starten und dann gibt es ein Gnome2-aehnliches Design
+
+7
+00:00:43,000 --> 00:00:54,900
+und das sieht so aus - es gibt ein Menue - es gibt Orte
+
+8
+00:00:55,000 --> 00:00:58,900
+die Fenster kann man Minimieren und Maximieren
+
+9
+00:00:59,000 --> 00:01:05,900
+Es gibt Arbeitsflaechen - man kann auch die Anzahl der Arbeitsflaechen einstellen
+
+10
+00:01:06,000 --> 00:01:12,900
+wie man das alles von Gnome2 kennt
+
+11
+00:01:13,000 --> 00:01:24,900
+den Rueckfall-Modus - der momentan AN ist
+
+12
+00:01:25,000 --> 00:01:29,900
+Dazu gibt es auch einen Eintrag beim dconf-editor
+
+13
+00:01:30,000 --> 00:01:34,900
+falls noch nicht verfuegbar, kann man den dconf-editor nachinstallieren
+
+14
+00:01:35,000 --> 00:01:47,900
+per su -c "yum install dconf-editor" ENTER, Passwort eingeben, warten bis er installiert ist
+
+15
+00:01:48,000 --> 00:01:52,900
+start per dconf-editor ENTER
+
+16
+00:01:53,000 --> 00:02:02,900
+und den Eintrag findet man unter org.gnome.desktop.session
+
+17
+00:02:03,000 --> 00:02:08,900
+und hier gibt es den Eintrag session-name - hier ist der Wert gnome-fallback
+
+18
+00:02:09,000 --> 00:02:16,900
+und wenn man jetzt einfach wieder gnome hinschreibt
+
+19
+00:02:17,000 --> 00:02:30,900
+dann ist der Rueckfall-Modus AUS - und einfach neu anmelden dann ist wieder alles beim Alten
+
+20
+00:02:32,000 --> 00:02:34,900
+Tschau und viel Glueck

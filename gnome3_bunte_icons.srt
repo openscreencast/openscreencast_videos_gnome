@@ -1,0 +1,51 @@
+1
+00:00:05,000 --> 00:00:07,900
+Hallo - In diesem Screencast ein kleiner Tipp
+
+2
+00:00:08,000 --> 00:00:15,900
+Und zwar wie kann ich den System-Status-Icons oben rechts im Panel Farbe verleihen
+
+3
+00:00:16,000 --> 00:00:18,900
+das geht so - als erstes starte ich ein Terminal
+
+4
+00:00:19,000 --> 00:00:26,900
+gehe auf Aktivitaeten - Anwendungen - Systemwerkzeuge - klicke auf Terminal
+
+5
+00:00:27,000 --> 00:00:31,900
+und jetzt wird die Datei panelMenu.js editiert per Befehl
+
+6
+00:00:32,000 --> 00:00:59,900
+su -c "vi /usr/share/gnome-shell/js/ui/panelMenu.js" ENTER - Passwort eingeben
+
+7
+00:01:00,000 --> 00:01:08,900
+OK - Jetzt mit dem Cursor ganz nach unten wandern
+
+8
+00:01:09,000 --> 00:01:16,900
+bis zu dieser Zeile
+
+9
+00:01:17,000 --> 00:01:29,900
+jetzt auf i druecken und SYMBOLIC durch FULLCOLOR ersetzen
+
+10
+00:01:30,000 --> 00:01:42,900
+OK - ESC druecken - :wq! eingeben - ENTER - so werden die aenderungen in der Datei gespeichert
+
+11
+00:01:43,000 --> 00:01:53,900
+jetzt nur noch ALT+F2 druecken - r ENTER - und so wird ein Gnome-Shell Neustart aufgerufen
+
+12
+00:01:56,000 --> 00:02:01,900
+und schon sind die Icons farbig
+
+13
+00:02:04,000 --> 00:02:06,900
+Tschau und viel Glueck

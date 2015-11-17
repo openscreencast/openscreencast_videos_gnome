@@ -1,0 +1,83 @@
+1
+00:00:05,000 --> 00:00:07,900
+Hallo - In diesem Screencast ein kleiner Tipp
+
+2
+00:00:08,000 --> 00:00:11,900
+Und zwar wie bringt man die ENTF-Taste wieder mit ins Spiel (zum Loeschen)
+
+3
+00:00:12,000 --> 00:00:16,900
+Momentan ist die Situation so das wenn man eine Datei loeschen will
+
+4
+00:00:17,000 --> 00:00:20,900
+dann markiert man die Datei und drueckt die ENTF-Taste
+
+5
+00:00:21,000 --> 00:00:22,900
+aber wie man sieht funktioniert das hier nicht
+
+6
+00:00:23,000 --> 00:00:29,900
+sondern hier muss man gleichzeitig die Tasten Strg+ENTF druecken damit das passiert
+
+7
+00:00:30,000 --> 00:00:37,900
+oder man benutzt das Menue - geht ins Menue Bearbeiten und klickt auf In den Muell verschieben
+
+8
+00:00:38,000 --> 00:00:45,900
+oder man benutzt die rechte Maustaste und drueckt auf den Eintrag In den Muell verschieben
+
+9
+00:00:46,000 --> 00:00:49,900
+um die ENTF-Taste wieder mit ins Spiel zu bringen
+
+10
+00:00:50,000 --> 00:00:56,900
+geht man wie folgt vor - man installiert den, wenn noch nicht verfuegbar, dconf-editor
+
+11
+00:00:57,000 --> 00:01:06,900
+per Befehl su -c "yum install dconf-editor" ENTER, Passwort eingeben
+
+12
+00:01:07,000 --> 00:01:11,900
+dann startet man den dconf-editor mit dconf-editor ENTER
+
+13
+00:01:12,000 --> 00:01:28,900
+dann drueckt man auf org.gnome.desktop.interface
+
+14
+00:01:29,000 --> 00:01:36,900
+und setzt ein Haekchen bei can-change-accels
+
+15
+00:01:37,000 --> 00:01:44,900
+und jetzt markiert man eine Datei - klickt auf Bearbeiten
+
+16
+00:01:45,000 --> 00:01:53,900
+auf In den Muell verschieben klickt man nicht, man geht nur mit dem Mauszeiger drauf
+
+17
+00:01:54,000 --> 00:01:57,900
+und dann drueckt man zweimal die ENTF-Taste
+
+18
+00:01:58,000 --> 00:02:07,900
+OK - und hier sieht man jetzt schon die Tastenkombination ist nicht mehr Strg+ENTF sondern ENTF
+
+19
+00:02:08,000 --> 00:02:16,900
+und jetzt nicht vergessen das Haekchen bei can-change-accels wieder zu entfernen, dconf-editor schliessen
+
+20
+00:02:17,000 --> 00:02:28,900
+jetzt muesste es funktionieren - Datei markieren - ENTF-Taste druecken und schon ist die Datei im Muell
+
+21
+00:02:31,000 --> 00:02:33,900
+Tschau und viel Glueck
