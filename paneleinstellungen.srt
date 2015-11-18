@@ -1,0 +1,311 @@
+1
+00:00:01,000 --> 00:00:04,000
+Hallo zum Screencast "Paneleinstellungen"
+
+2
+00:00:05,000 --> 00:00:09,500
+Panels sind Leisten auf der grafischen Oberfläche auch genannt Taskleiste
+
+3
+00:00:10,000 --> 00:00:13,000
+Das wäre ein Panel oder das wäre ein Panel
+
+4
+00:00:14,000 --> 00:00:17,000
+Der Dienst gconf managt alle Einstellungen bei Gnome.
+
+5
+00:00:17,500 --> 00:00:22,000
+Im Desktopmodus gibt es zum Dienst gconf das Programm gconf-editor
+
+6
+00:00:22,500 --> 00:00:26,000
+und im Textmodus das Programm gconftool-2
+
+7
+00:00:26,500 --> 00:00:31,400
+Im Screencast 001 Wie ändere ich mein Hintergrundbild bei Gnome
+
+8
+00:00:31,500 --> 00:00:39,000
+wird erklärt wie gconf-editor mit pirut nachinstalliert wird und wie gconftool-2 zum Einsatz kommt
+
+9
+00:00:40,000 --> 00:00:45,000
+Diesmal möchte ich nur mit gconf-editor demonstrieren wo die Einstellungen für ein Panel sind
+
+10
+00:00:45,500 --> 00:00:48,500
+und wie man gconf-editor im Textmodus nachinstalliert
+
+11
+00:00:49,500 --> 00:00:55,000
+Ich bewege die Maus auf Anwendungen - Zubehör - Terminal
+
+12
+00:00:55,500 --> 00:01:01,000
+Indem ich su ENTER und das Admin-Passwort eingebe
+
+13
+00:01:01,500 --> 00:01:06,000
+bekomme ich die benötigten Rechte um gconf-editor nachzuinstallieren
+
+14
+00:01:06,500 --> 00:01:13,000
+Mit dem Tool yum kann man im Textmodus Pakete installieren, löschen und aktualisieren
+
+15
+00:01:14,000 --> 00:01:19,000
+Hilfe erfolgt nach dem Kommando man yum ENTER
+
+16
+00:01:20,500 --> 00:01:24,000
+Mit dem Drücken der Taste q wird die Hilfe beendet
+
+17
+00:01:26,000 --> 00:01:34,000
+Ich gebe ein yum install gconf-editor ENTER
+
+18
+00:01:35,000 --> 00:01:39,000
+So wird das Paket gconf-editor im Textmodus nachinstalliert
+
+19
+00:01:44,000 --> 00:01:46,000
+Bestätigung Ja ich möchte installieren
+
+20
+00:01:58,000 --> 00:02:03,000
+Mit exit verlasse ich den Admin-Modus und mit exit beendet ich auch das Terminal
+
+21
+00:02:04,000 --> 00:02:10,000
+gconf-editor ist jetzt zu finden unter Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+22
+00:02:11,000 --> 00:02:15,000
+Oder ich öffne ein Terminal und gebe das Kommando gconf-editor ein
+
+23
+00:02:17,000 --> 00:02:28,000
+Ich klicke auf apps - panel - toplevels um zu den Schlüsseln für die Panels zu kommen
+
+24
+00:02:29,000 --> 00:02:35,000
+bottom_panel für das untere und top_panel für das obere Panel
+
+25
+00:02:36,000 --> 00:02:38,500
+Ich klicke bottom_panel an
+
+26
+00:02:39,000 --> 00:02:46,500
+Das Fenster lasse ich offen damit man beobachten kann welcher Schlüssel für welche Eigenschaft des Panels verwantwortlich ist
+
+27
+00:02:47,000 --> 00:02:49,500
+Was für Einstellungsmöglichkeiten bietet ein Panel ?
+
+28
+00:02:50,000 --> 00:02:57,000
+Ich klicke mit der rechten Maustaste auf das untere Panel gehe zum Eintrag Eigenschaften
+
+29
+00:03:02,000 --> 00:03:04,000
+Ich kann die Größe ändern
+
+30
+00:03:09,000 --> 00:03:11,500
+Das wäre der Schlüssel size
+
+31
+00:03:15,000 --> 00:03:17,500
+Ich kann die Ausrichtung beeinflußen
+
+32
+00:03:18,000 --> 00:03:27,000
+Das heißt ich kann ein Panel nach rechts befördern nach links nach oben nach unten
+
+33
+00:03:27,500 --> 00:03:30,000
+Hierzu existiert dieser Schlüssel (orientation)
+
+34
+00:03:37,000 --> 00:03:44,000
+Ich kann den Leerraum auf dem Panel entfernen indem ich das Häkchen Ausdehnen wegnehme
+
+35
+00:03:48,000 --> 00:03:50,000
+Das ist der Schlüssel expand
+
+35
+00:03:55,000 --> 00:03:58,000
+Mit dem Häkchen beim Punkt Auto-Verbergen kann ich die Leiste verbergen
+
+36
+00:04:03,000 --> 00:04:07,000
+Das wäre dieser Schlüssel auto_hide
+
+37
+00:04:07,500 --> 00:04:10,000
+Ich kann die Leiste mit einem Knopfdruck verbergen
+
+38
+00:04:11,000 --> 00:04:15,000
+Dazu mache ich hier bei Verbergen-Knöpfe anzeigen ein Häkchen
+
+39
+00:04:16,000 --> 00:04:20,500
+Wenn ich jetzt hier auf den Knopf drücke kann ich die Leiste verschwinden lassen
+
+40
+00:04:21,000 --> 00:04:25,000
+Wenn ich nochmal draufdrücke wird die Leiste wieder angezeigt
+
+41
+00:04:29,000 --> 00:04:32,000
+Das wäre dieser Schlüssel (enable_buttons)
+
+42
+00:04:35,000 --> 00:04:39,000
+Zusätzlich kann ich den Hintergrund des Panels nach meinem Belieben gestalten
+
+43
+00:04:40,000 --> 00:04:43,000
+Hier gibt es noch den Unterpunkt background
+
+44
+00:04:45,000 --> 00:04:46,000
+Hier sind alle Schlüssel dazu
+
+45
+00:04:49,000 --> 00:04:51,000
+Ich kann die Farbe ändern
+
+46
+00:04:52,000 --> 00:04:54,000
+Die kann die Leiste transparent machen
+
+47
+00:04:55,000 --> 00:04:57,000
+und ich kann ein Hintergrundbild hinzufügen
+
+48
+00:05:12,000 --> 00:05:22,000
+Ein neues Panel kann ich anlegen mit einem rechten Mausklick auf ein Panel und dann mit einem linken Mausklick auf den Punkt Panel anlegen
+
+49
+00:05:25,000 --> 00:05:35,000
+Ich lösche eine Leiste indem ich auf dieses Panel einen rechten Mausklick mache und anschließend auf Dieses Panel löschen gehe
+
+50
+00:05:40,000 --> 00:05:48,000
+Objekte, kleine Programme, kann man einem Panel hinzufügen indem man mit der rechten Maustaste auf das Panel klickt
+
+51
+00:05:52,100 --> 00:06:06,000
+auf zum Panel hinzufügen geht sich ein Objekt aussucht und dann den Button Hinzufügen betätigt, schließen
+
+52
+00:06:07,100 --> 00:06:11,000
+Einstellungen eines Objektes kann man verändern
+
+53
+00:06:12,000 --> 00:06:16,000
+indem ich einen rechten Mausklick auf das Objekt mache
+
+54
+00:06:16,100 --> 00:06:22,000
+und anschließend auf den Punkt Einstellungen gehe
+
+55
+00:06:24,100 --> 00:06:30,000
+Ich kann ein Objekt verschieben auf dem Panel indem ich mit der rechten Maustaste auf das Objekt klicke
+
+56
+00:06:32,100 --> 00:06:35,000
+und ich auf den Punkt Verschieben gehe
+
+57
+00:06:38,100 --> 00:06:42,000
+so kann ich das Objekt zur richtigen Stelle befördern
+
+58
+00:06:45,100 --> 00:06:50,000
+Ein Unterbinden des Verschiebens ist möglich mit einem rechten Mausklick auf das Objekt
+
+59
+00:06:50,100 --> 00:06:56,000
+und ich trage hier beim Punkt Auf dem Panel sperren ein Häkchen ein
+
+60
+00:06:57,100 --> 00:07:00,000
+So verschwindet der Punkt verschieben
+
+61
+00:07:03,100 --> 00:07:09,000
+Ich kann ein Objekt löschen indem ich das Objekt anklicke mit der rechten Maustaste
+
+62
+00:07:10,100 --> 00:07:14,000
+und ich gehe dann zum Eintrag Aus dem Panel entfernen
+
+63
+00:07:18,100 --> 00:07:24,000
+Zum Ende möchte ich noch kurz die vorhandenen Objekte im unteren Panel vorstellen
+
+64
+00:07:26,100 --> 00:07:30,000
+Bei dem Objekt ganz links kann ich alle Fenster minimieren
+
+65
+00:07:35,100 --> 00:07:37,000
+bzw. wieder anzeigen lassen
+
+66
+00:07:42,100 --> 00:07:48,000
+ganz rechts ist der Mülleimer wo vorerst alle gelöschten Dateien landen
+
+67
+00:07:49,100 --> 00:07:56,000
+der Mülleimer ist nichts weiter als das versteckte Verzeichnis .Trash im Home-Verzeichnis eines Benutzers
+
+68
+00:07:59,100 --> 00:08:01,000
+Das ist ein verstecktes Verzeichnis
+
+69
+00:08:01,100 --> 00:08:06,000
+Um es anzeigen zu lassen gehe ich nun auf Ansicht - Verborgene Dateien anzeigen
+
+70
+00:08:08,100 --> 00:08:10,000
+Hier ist das Verzeichnis .Trash
+
+71
+00:08:14,100 --> 00:08:18,000
+Neben dem Mülleimer gibt es das Objekt Arbeitsflächenumschalter
+
+72
+00:08:18,100 --> 00:08:22,000
+dort kann man zwischen 4 Arbeitsflächen wählen wo man arbeiten möchte
+
+73
+00:08:24,100 --> 00:08:26,000
+Arbeitsflächen sind sowas wie visuelle Bildschirme
+
+74
+00:08:28,100 --> 00:08:33,000
+Indem ich mit der Maus auf ein Fenster in einer Arbeitsfläche gehe
+
+75
+00:08:33,100 --> 00:08:41,000
+dieses Fenster anklicke den Klick beibehalte und jetzt das Fenster ziehe zu einer anderen Arbeitsfläche
+
+76
+00:08:42,100 --> 00:08:46,000
+kann ich Fenster von Arbeitsfläche zu Arbeitsfläche verschieben
+
+77
+00:08:55,100 --> 00:08:59,000
+Gut das wars Bye Bye bis zum nächsten
