@@ -1,0 +1,179 @@
+1
+00:00:01,000 --> 00:00:06,500
+Hallo In diesem und im nächsten Screencast wird sich alles um den Ordner drehen
+
+2
+00:00:06,600 --> 00:00:09,000
+Ordner sind Verzeichnisse in einer Verzeichnisstruktur
+
+3
+00:00:09,100 --> 00:00:12,000
+die die Übersicht für den Benutzer leichter machen sollen
+
+4
+00:00:13,000 --> 00:00:17,000
+Die Verzeichnisstruktur ist eine logische Gestalt des Dateisystems
+
+5
+00:00:17,500 --> 00:00:21,000
+Wer mehr über den Aufbau der Verzeichnisstruktur von Linux wissen möchte
+
+6
+00:00:21,500 --> 00:00:23,000
+startet den Browser
+
+7
+00:00:26,000 --> 00:00:28,000
+ruft Wikipedia (http://de.wikipedia.org) auf
+
+8
+00:00:30,000 --> 00:00:37,000
+sucht nach fhs, klickt dann auf Filesystem Hierarchy Standard
+
+9
+00:00:40,000 --> 00:00:45,000
+Ich werde nur grob die wichtigsten Ordner im Wurzelverzeichnis erklären
+
+10
+00:00:45,100 --> 00:00:49,000
+Um zum Wurzelverzeichnis zu kommen mache ich einen Doppelklick auf Computer
+
+11
+00:00:49,100 --> 00:00:52,000
+und dann einen Doppelklick auf Dateisytem
+
+12
+00:00:55,100 --> 00:01:00,000
+Zum ersten werden im Ordner /bin grundlegende Systemkommandos untergebracht
+
+13
+00:01:01,100 --> 00:01:06,000
+Im Verzeichnis /boot sind alle Dateien vorhanden die für den Bootablauf eine Rolle spielen
+
+14
+00:01:07,100 --> 00:01:11,000
+Gerätedateien findet man im Verzeichnis /dev
+
+15
+00:01:12,100 --> 00:01:16,000
+Der Ordner /etc beinhaltet soweit alle Konfigurationsdateien
+
+16
+00:01:17,100 --> 00:01:22,000
+Und im Ordner /home werden alle neuen Benutzerverzeichnisse angelegt
+
+17
+00:01:23,100 --> 00:01:27,000
+Bibliotheken stecken im Verzeichnis /lib
+
+18
+00:01:28,100 --> 00:01:32,000
+/media ist für Einhängepunkte auswechselbarer Datenträger
+
+19
+00:01:34,100 --> 00:01:38,000
+/mnt ist zum einhängen anderer Dateisyteme vorgesehen
+
+20
+00:01:40,100 --> 00:01:44,000
+Im Ordner /opt kann man zusätzliche Softeware speichern
+
+21
+00:01:46,100 --> 00:01:52,000
+Der Systemverwalter hat sein eigenes Homeverzeichnis namens /root
+
+22
+00:01:53,100 --> 00:01:58,000
+Systembefehle für den Administrator sind im Ordner /sbin
+
+23
+00:02:00,100 --> 00:02:04,000
+Im Ordner /tmp werden temporäre Dateien abgelegt
+
+24
+00:02:05,100 --> 00:02:12,000
+Dateien die von mehreren Rechnern gemeinsam genutzt werden haben ihr zu Hause im Verzeichnis /usr
+
+25
+00:02:14,100 --> 00:02:20,000
+Und im Ordner /var befinden sich alle variablen Daten wie z.B. Logdateien
+
+26
+00:02:25,100 --> 00:02:28,000
+Um die Verzeichnisstruktur zu verwalten gibt es den Dateimanager.
+
+27
+00:02:28,100 --> 00:02:31,000
+Bei Gnome existiert dazu Nautilus
+
+28
+00:02:31,100 --> 00:02:38,000
+Um Nautilus zu starten gehe ich auf Anwendungen - Systemwerkzeuge - Datei-Browser
+
+29
+00:02:39,100 --> 00:02:45,000
+Oder ich öffne ein Terminalfenster dazu gehe ich auf Anwendungen - Zubehör - Terminal
+
+30
+00:02:46,100 --> 00:02:56,000
+Und ich gebe ein nautilus --browser ENTER
+
+31
+00:03:00,100 --> 00:03:03,000
+Verzeichnisse erkennt man am eigenen Symbol was für ein Verzeichnis vorgesehen ist
+
+32
+00:03:03,100 --> 00:03:06,000
+Das wäre z.B. ein Verzeichnis
+
+33
+00:03:08,100 --> 00:03:11,000
+Man öffnet einen Ordner mit einem Doppelklick darauf
+
+34
+00:03:14,100 --> 00:03:20,000
+Oder man klick mit der rechten Maustaste auf den Ordner und geht auf Öffnen
+
+35
+00:03:24,100 --> 00:03:30,000
+Die Eigenschaften kann man auskundschaften indem man eine rechten Mausklick auf den Ordner tätigt
+
+36
+00:03:30,100 --> 00:03:32,000
+Und dann auf Eigenschaften geht
+
+37
+00:03:39,100 --> 00:03:43,000
+Ich kann einen neuen Ordner anlegen indem ich im freien Bereich
+
+38
+00:03:45,100 --> 00:03:50,000
+einen Klick mit der rechten Maustaste mache und dann auf Ordner anlegen gehe
+
+39
+00:03:51,100 --> 00:03:57,000
+Jetzt gebe ich den Namen ein ENTER
+
+40
+00:03:58,100 --> 00:04:01,000
+Und schon ist der neue Ordner zu sehen
+
+41
+00:04:01,100 --> 00:04:06,000
+Ich lösche einen Ordner indem ich den Ordner anklicke dann die ENTF-Taste drücke
+
+42
+00:04:07,100 --> 00:04:12,000
+Oder ich klicke den Ordner an mache einen Klick mit der rechten Maustaste
+
+43
+00:04:12,100 --> 00:04:16,000
+und gehe dann auf In den Müll verschieben
+
+44
+00:04:20,100 --> 00:04:22,000
+Gut Das wars
+
+45
+00:04:24,100 --> 00:04:32,000
+Zum nächsten Screencast Umgang mit Ordner im Textmodus, Tschau bis zum nächsten
