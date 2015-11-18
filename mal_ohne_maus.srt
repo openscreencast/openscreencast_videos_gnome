@@ -1,0 +1,155 @@
+1
+00:00:01,000 --> 00:00:03,500
+Hallo zum 10. Screencast
+
+2
+00:00:04,000 --> 00:00:07,500
+Die Frage ist geht es beim Desktop auch ohne Maus
+
+3
+00:00:08,000 --> 00:00:09,500
+Die Antwort heißt ja
+
+4
+00:00:10,000 --> 00:00:15,500
+Es ist möglich die Maus in den Käfig zu sperren und nur mit der Tastatur zu arbeiten
+
+5
+00:00:16,000 --> 00:00:20,500
+Man benutzt bestimmte Tastenkombinationen um an sein Ziel zu gelangen
+
+6
+00:00:21,000 --> 00:00:27,500
+Um das Hauptmenü von Gnome anzusprechen benutzt man die Tasten Alt und F1 gleichzeitig
+
+7
+00:00:28,000 --> 00:00:33,500
+Jetzt kann man mit den Cursortasten zum entsprechenden Programm wandern
+
+8
+00:00:34,000 --> 00:00:39,000
+Wenn man angelangt ist an sein Ziel drückt man ENTER
+
+9
+00:00:39,500 --> 00:00:41,500
+So wird das Programm gestartet
+
+10
+00:00:43,500 --> 00:00:46,500
+Mit der Tastenkombination Alt und F2
+
+11
+00:00:48,500 --> 00:00:53,500
+erscheint ein Fenster wo man Befehle eingeben kann die dann ausgeführt werden
+
+12
+00:00:54,000 --> 00:01:01,500
+Ich gebe jetzt hier mal ein gnome-terminal ENTER, so wird ein Terminal gestartet
+
+13
+00:01:03,000 --> 00:01:08,500
+Die Hilfe wird nach dem Betätigen der Taste F1 geöffnet
+
+14
+00:01:11,000 --> 00:01:16,500
+Laufen mehrere Programme zur gleichen Zeit kann man mit Alt und der Tabulator-Taste
+
+15
+00:01:16,600 --> 00:01:20,500
+von einem Fenster zum anderen springen
+
+16
+00:01:25,600 --> 00:01:30,500
+Mit Alt und F10 maximiere ich ein Fenster
+
+17
+00:01:32,600 --> 00:01:37,500
+Und mit Alt und F5 versetze ich das Fenster wieder in den Ausgangszustand zurück
+
+18
+00:01:40,600 --> 00:01:46,500
+Das Fenster minimiere ich indem ich die Tastenkombination Alt und F9 drücke
+
+19
+00:01:50,600 --> 00:02:02,500
+Ich kann das Fenster verschieben mit Alt und F7, benutze die Cursortasten drücke dann ENTER
+
+20
+00:02:03,600 --> 00:02:13,500
+Die Größe ändere ich mit Alt und F8, benutze wieder die Cursortasten, drücke am Ende wieder ENTER
+
+21
+00:02:15,600 --> 00:02:21,500
+Mit Alt und Space aktiviere ich das Fenstermenü
+
+22
+00:02:23,600 --> 00:02:32,500
+Ein freies Desktop kann ich mir mit dem Drücken der Tasten Strg Alt und d verschaffen
+
+23
+00:02:34,600 --> 00:02:39,500
+Drücke ich nochmal Strg Alt und d sind alle Fenster wieder zu sehen
+
+24
+00:02:41,600 --> 00:02:47,500
+Durch Strg Alt und den Cursortasten kann ich von Arbeitsfläche zu Arbeitsfläche wandern
+
+25
+00:02:52,600 --> 00:02:59,500
+Und mit Alt Strg Shift und den Cursortasten beame ich ein Fenster zu einer anderen Arbeitsfläche
+
+26
+00:03:05,600 --> 00:03:12,500
+Das Fenster schließt man mit den Tasten Alt und F4
+
+27
+00:03:15,600 --> 00:03:23,500
+Zum Menü eines Programmes kommt man indem man Alt und den unterstrichenen Buchstaben des Menüs drückt
+
+28
+00:03:24,600 --> 00:03:33,500
+Bei Datei ist D unterstrichen, also drücke ich Alt und d, so gelange ich zum Menü
+
+29
+00:03:34,000 --> 00:03:36,500
+Jetzt kann ich wieder mit den Cursortasten navigieren
+
+30
+00:03:38,000 --> 00:03:42,500
+Drücke dann ENTER wenn ich den Punkt ansprechen will
+
+31
+00:03:44,000 --> 00:03:48,500
+Manche Menüpunkte haben ihre eigenen Tastenkombinationen
+
+32
+00:03:49,000 --> 00:03:54,500
+So ist es möglich den Menüpunkt mit dieser Tastenkombination sofort anzusteuern
+
+33
+00:03:57,000 --> 00:04:04,500
+Tastenkombinationen sieht man hier rechts neben dem Menüpunkt
+
+34
+00:04:05,000 --> 00:04:09,500
+Wenn der Menüpunkt eine Tastenkombination hat
+
+35
+00:04:13,000 --> 00:04:23,500
+Gnome-Tastenkombinationen kann man neu setzen indem man auf System - Einstellungen - Tastenkombinationen geht
+
+36
+00:04:27,000 --> 00:04:50,500
+Oder ich gehe auf Anwendungen - Zubehör - Terminal und gebe ein gnome-keybinding-properties ENTER
+
+37
+00:04:59,000 --> 00:05:04,500
+Diese Einstellungen kann ich auch mit den Tools für den Dienst gconf machen
+
+38
+00:05:05,000 --> 00:05:13,500
+z.B. im Desktopmodus mit gconf-editor und im Textmodus mit gconftool-2
+
+39
+00:05:16,000 --> 00:05:21,500
+Gut, dann Tschau bis zum nächsten

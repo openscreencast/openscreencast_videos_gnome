@@ -1,0 +1,147 @@
+1
+00:00:02,000 --> 00:00:05,500
+Hallo ich grüße alle recht herzlich zum Screencast Bildschirmschoner
+
+2
+00:00:06,000 --> 00:00:13,500
+Bildschirmschoner sind Programme die gestartet werden wenn eine gewisse Zeit nicht mehr am Computer gearbeitet wird
+
+3
+00:00:14,000 --> 00:00:19,000
+Ursprünglich wurden sie eingesetzt um zu verhindern das sich Monitoranzeigen in den Bildschirm brennen
+
+4
+00:00:19,500 --> 00:00:21,500
+Optimal war dafür ein schwarzes Bild
+
+5
+00:00:22,000 --> 00:00:26,500
+Heute werden sie mehr zur Unterhaltung und wegen des Datenschutzes aktiviert
+
+6
+00:00:27,000 --> 00:00:34,500
+Um Bildschirmschonereinstellungen zu setzen gehe ich auf System - Einstellungen - Bildschirmschoner
+
+7
+00:00:35,000 --> 00:00:53,500
+Oder ich gehe auf Anwendungen - Zubehör - Terminal und ich gebe ein gnome-screensaver-preferences ENTER
+
+8
+00:00:55,000 --> 00:01:00,500
+Hier kann ich mir jetzt einen Bildschirmschoner aussuchen wie ich das möchte
+
+9
+00:01:00,600 --> 00:01:04,500
+oder einen leeren Bildschirm, einen zufälligen Bildschirmschoner
+
+10
+00:01:05,600 --> 00:01:11,500
+Hier setze ich die Zeit, nach wieviel Minuten nichtstun am Computer der Bildschirmschoner gestartet wird
+
+11
+00:01:14,600 --> 00:01:18,500
+Oder ich klicke hier den Bilderordner an
+
+12
+00:01:19,600 --> 00:01:25,500
+Das heißt in einem bestimmten Ordner gibt es Bilder die dann angezeigt werden als Bildschirmschoner
+
+13
+00:01:27,600 --> 00:01:33,500
+Das probiere ich jetzt mal aus, ich klicke den Bilderordner an, gehe auf Schließen
+
+14
+00:01:35,600 --> 00:01:38,500
+Gehe zu meinem persönlichen Ordner
+
+15
+00:01:39,000 --> 00:01:41,500
+In diesem Fall ist es das Verzeichnis /home/paul
+
+16
+00:01:43,000 --> 00:01:45,500
+Hier lege ich mir jetzt einen Ordner an
+
+17
+00:01:46,000 --> 00:01:49,500
+Dazu drücke ich die rechte Maustaste gehe auf Ordner anlegen
+
+18
+00:01:50,000 --> 00:01:54,500
+Gebe jetzt den Namen Pictures ein ENTER
+
+19
+00:01:56,000 --> 00:02:00,500
+Wichtig ist das das P (von Pictures) groß ist
+
+20
+00:02:00,600 --> 00:02:04,500
+Denn bei Linux unterscheidet man zwischen Groß- und Kleinschreibung
+
+21
+00:02:05,600 --> 00:02:10,500
+Jetzt suche ich mir ein paar Bilder aus, z.B. die letzten Urlaubsbilder kann man dort hinein kopieren
+
+22
+00:02:10,600 --> 00:02:16,500
+Ich habe schon mal drei vorbereitet, ich klicke die jetzt mal an
+
+23
+00:02:17,600 --> 00:02:26,500
+Gehe auf Bearbeiten - Kopieren, gehe jetzt mit einem Doppelklick in den Ordner Pictures
+
+24
+00:02:26,600 --> 00:02:35,500
+Gehe auf Bearbeiten - Einfügen, so das die Bilder jetzt in diesem Ordner vorhanden sind
+
+25
+00:02:39,600 --> 00:02:42,500
+So jetzt probiere ich den Bildschirmschoner mal aus
+
+26
+00:02:44,600 --> 00:02:46,500
+Unzwar gibt es dafür ein Kommando
+
+27
+00:02:48,600 --> 00:03:05,500
+ein Kommando das den Bildschirmschoner beeinflußen kann, das wäre das Kommando gnome-screensaver-command
+
+28
+00:03:06,600 --> 00:03:17,500
+Hilfe erscheint nachdem ich eingebe gnome-screensaver-command
+
+29
+00:03:18,600 --> 00:03:22,500
+Hier gibt es mehrere Optionen, einfach mal durchlesen und ausprobieren
+
+30
+00:03:24,600 --> 00:03:42,500
+Um den Bildschirmschoner mal auszuprobieren gebe ich jetzt ein gnome-screensaver-command --activate
+
+31
+00:03:43,600 --> 00:03:48,500
+So nun müsste das ganze funktionieren und die Bilder erscheinen als Bildschirmschoner
+
+32
+00:03:50,600 --> 00:03:55,500
+Um weiter zu arbeiten benutze ich einfach die Maus oder ich drücke irgendeine Taste
+
+33
+00:03:57,600 --> 00:04:07,500
+Dann gebe ich mein Passwort nochmal ein, ENTER, und ich kann weiter arbeiten am Computer
+
+34
+00:04:09,600 --> 00:04:14,500
+Bildschirmschonereinstellungen kann ich auch mit den Tools für den Dienst gconf machen
+
+35
+00:04:15,600 --> 00:04:19,500
+im Textmodus wäre das gconftool-2
+
+36
+00:04:20,000 --> 00:04:26,500
+und im Desktopmodus gibt es das Tool gconf-editor das nachinstalliert werden muss
+
+37
+00:04:28,000 --> 00:04:35,500
+Gut das wars auch schon wieder, dann viel Spaß bei den Bildschirmschonereinstellungen, bis zum nächsten
