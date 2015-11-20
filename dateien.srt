@@ -1,0 +1,183 @@
+1
+00:00:01,000 --> 00:00:05,500
+Hallo Heute im Angebot die Basisoperationen für Dateien
+
+2
+00:00:06,000 --> 00:00:12,500
+Dateien erstellen, kopieren, bewegen, umbenennen und löschen, als erstes im Desktopmodus
+
+3
+00:00:13,000 --> 00:00:17,500
+Ich klicke den Persönlichen Ordner doppelt an, so wird er geöffnet
+
+4
+00:00:18,000 --> 00:00:28,500
+Mehr über die Eigenschaften einer Datei erfahre ich indem ich die Datei anklicke auf Datei - Eigenschaften gehe
+
+5
+00:00:30,000 --> 00:00:37,500
+oder ich klicke die Datei mit der rechten Maustaste an und mache einen Klick auf Eigenschaften
+
+6
+00:00:40,000 --> 00:00:50,500
+Für ein paar Übungen erstelle ich einen neuen Ordner, benutze die rechte Maustaste und wähle Ordner anlegen
+
+7
+00:00:50,600 --> 00:00:56,500
+Ich nenne den Ordner Ziel, gebe Ziel ein ENTER
+
+8
+00:00:58,000 --> 00:01:05,500
+Eine andere Möglichkeit einen Ordner anzulegen wäre Datei - Ordner anlegen
+
+9
+00:01:06,000 --> 00:01:11,500
+Oder ich drücke gleichzeitig die Tasten Shift Strg und N
+
+10
+00:01:13,000 --> 00:01:21,500
+Wenn ich eine neue Datei erstellen möchte gehe ich auf Datei - Dokument anlegen - leere Datei
+
+11
+00:01:22,000 --> 00:01:35,500
+oder ich mache einen Klick mit der rechten Maustaste und wandere mit dem Mauspfeil auf Dokument anlegen - leere Datei, mache einen Klick
+
+12
+00:01:37,000 --> 00:01:44,500
+Wie man sieht gibt es jetzt eine neue Datei namens neue Datei
+
+13
+00:01:45,000 --> 00:01:49,500
+Der Name soll natürlich nicht so bleiben also klicke ich die Datei an
+
+14
+00:01:50,000 --> 00:01:58,500
+Gehe auf Bearbeiten - Umbenennen, oder ich drücke die Taste F2
+
+15
+00:01:59,000 --> 00:02:06,500
+Oder ich mache einen Klick mit der rechten Maustaste auf die Datei, gehe auf Umbenennen
+
+16
+00:02:07,000 --> 00:02:15,500
+Gebe jetzt den neuen Namen ein, z.B. leer ENTER
+
+17
+00:02:17,000 --> 00:02:25,500
+Ich lösche einen Datei indem sie anklicke und die ENTF-Taste drücke, das ist die einfachste Methode
+
+18
+00:02:26,000 --> 00:02:34,500
+oder ich klicke sie mit der rechten Maustaste an gehe dann auf in den Müll verschieben
+
+19
+00:02:36,000 --> 00:02:46,500
+oder ich gehe auf Bearbeiten - in den Müll verschieben, oder drücke die Tasten STRG+T
+
+20
+00:02:47,000 --> 00:02:57,500
+oder ich klicke die Datei an, behalte den Klick und verschiebe die Datei auf den Mülleimer
+
+21
+00:03:01,000 --> 00:03:05,500
+Diese Methode, ziehen und fallenlassen, nennt man Drag and Drop
+
+22
+00:03:07,000 --> 00:03:13,500
+Gelöschte Dateien landen vorerst in dem versteckten Ordner .Trash
+
+23
+00:03:15,000 --> 00:03:17,500
+Ich kann den Mülleimer leeren
+
+24
+00:03:18,000 --> 00:03:27,500
+Ich mache einen Klick mit der rechten Maustaste auf den Mülleimer und gehe auf Müll leeren
+
+25
+00:03:30,000 --> 00:03:31,500
+Nun zum kopieren
+
+26
+00:03:33,000 --> 00:03:37,500
+Ich wähle als erstes die Dateien aus die ich kopieren möchte
+
+27
+00:03:38,000 --> 00:03:50,500
+klicke mit der linken Maustaste auf eine leere Fläche, ziehe über die Dateien die ich markieren möchte
+
+28
+00:03:52,000 --> 00:03:59,500
+lasse dann los, so sind diese vier Dateien z.B. markiert
+
+29
+00:04:01,000 --> 00:04:10,500
+oder ich klicke auf eine Datei, drücke die Taste Strg, lasse nicht mehr los
+
+30
+00:04:11,000 --> 00:04:23,500
+mache dann einen Klick auf eine andere Datei usw. bis ich alle markiert habe, lasse dann die Taste Strg wieder los
+
+31
+00:04:29,000 --> 00:04:39,500
+ich kann auch gleich alle Dateien markieren, dazu gibt es den Eintrag Alles Auswählen unter Bearbeiten
+
+32
+00:04:40,000 --> 00:04:43,500
+oder ich drücke Strg+A
+
+33
+00:04:45,000 --> 00:04:54,500
+Bestimmte Dateien kann ich durch den Menüpunkt Muster wählen unter Bearbeiten markieren
+
+35
+00:04:58,000 --> 00:05:02,500
+oder ich drücke die Tasten Strg+S
+
+36
+00:05:04,000 --> 00:05:17,500
+Jetzt gebe ich ein *.pdf, so werden alle Dateien mit der Endung .pdf markiert
+
+37
+00:05:21,000 --> 00:05:31,500
+Danach gehe ich auf Bearbeiten - Kopieren oder drücke die Tasten Strg und C
+
+38
+00:05:32,000 --> 00:05:37,500
+Gehe zum Zielordner, mache einen Doppelklick drauf
+
+39
+00:05:38,000 --> 00:05:53,500
+Gehe auf Bearbeiten - Einfügen, oder ich drücke die Tasten Strg und V, Duplizieren abgeschlossen
+
+40
+00:05:54,000 --> 00:05:56,500
+Zum Schluß das Verschieben der Dateien
+
+41
+00:05:57,000 --> 00:06:04,500
+Als erstes werden die Dateien wieder markiert, wie das geht habe ich gerade gezeigt
+
+42
+00:06:10,000 --> 00:06:18,500
+Gehe dann auf Bearbeiten - Ausschneiden oder ich drücke die Tasten Strg und X
+
+43
+00:06:20,000 --> 00:06:33,500
+Gehe wieder zum Zielordner, gehe auf Bearbeiten - Einfügen oder drücke Strg und V
+
+44
+00:06:37,000 --> 00:06:42,500
+Gibt es die Dateien schon gehe ich auf Ersetzen oder überspringe den Vorgang
+
+45
+00:06:47,000 --> 00:06:57,500
+Oder eine andere Möglichkeit, ich klicke die Datei an die ich verschieben möchte oder die Dateien
+
+45
+00:06:58,000 --> 00:07:05,500
+behalte den Klick bei und ziehe die Datei in den Zielordner
+
+46
+00:07:10,000 --> 00:07:20,500
+Gut das wars, das nächte mal im Textmodus, bis zum nächsten mal, Tschau
