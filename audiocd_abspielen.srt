@@ -1,0 +1,159 @@
+1
+00:00:01,000 --> 00:00:05,500
+Hallo heutiges Thema "Audio-CDs abspielen"
+
+2
+00:00:06,000 --> 00:00:11,500
+Alle Programme die ich vorstellen werden sind sehr einfach und eindeutig in ihrer Bedienbarkeit
+
+3
+00:00:12,000 --> 00:00:17,500
+Inzwischen gibt es ein großes Angebot an Programmen die Audio-CDs abspielen die man nachinstallieren kann
+
+4
+00:00:18,000 --> 00:00:24,500
+Zuerst starte ich ein Terminal um zu zeigen mit welchem Befehl die vorgestellten Programme gestartet werden können
+
+5
+00:00:25,000 --> 00:00:30,500
+Ich gehe auf Anwendungen - Zubehör - Terminal
+
+6
+00:00:34,000 --> 00:00:41,500
+Das erste Programm der CD-Player, zu finden unter Anwendungen - Unterhaltungsmedien - CD-Player
+
+7
+00:00:43,000 --> 00:00:49,500
+startet man im Terminal mit gnome-cd ENTER
+
+8
+00:01:15,000 --> 00:01:23,500
+Das zweite Programm die Rhythmbox, zu finden unter Anwendungen - Unterhaltungsmedien - Rhythmbox Musik-Player
+
+9
+00:01:25,000 --> 00:01:34,500
+oder ich gebe im Terminal ein rhythmbox ENTER
+
+10
+00:01:37,000 --> 00:01:43,500
+wähle als Quelle die Audio-CD, klicke einen Titel an
+
+11
+00:01:54,000 --> 00:02:02,500
+als drittes Programm der Sound Juicer, zu finden unter Anwendungen - Unterhaltungsmedien - Sound Juicer CD-Ausleser
+
+12
+00:02:03,000 --> 00:02:06,500
+das ist ein CD-Ausleser, aber auch zur Wiedergabe fähig
+
+13
+00:02:08,000 --> 00:02:14,500
+startet man im Terminal mit sound-juicer ENTER
+
+14
+00:02:18,000 --> 00:02:31,500
+das letztes Programm der Video-Player, findet man im Eintrag unter Anwendungen - Unterhaltungsmedien - Video-Player
+
+15
+00:02:32,000 --> 00:02:38,500
+und gibt im Terminal den Befehl totem ENTER ein
+
+16
+00:02:39,000 --> 00:02:46,500
+oder man macht gleich einen Doppelklick auf die Audio-CD, da es das Standard-Programm für die Audio-CDs ist
+
+17
+00:03:08,000 --> 00:03:12,500
+Die meisten CD-Player haben ihren eigenen Lautstärkeregler
+
+18
+00:03:13,000 --> 00:03:17,500
+Ist das nicht der Fall gibt es einen Lautstärkeregler ganz oben rechts
+
+19
+00:03:21,000 --> 00:03:30,500
+oder es gibt ebenfalls einen Lautstärkereglereintrag unter System - Einstellungen - Lautstärkeregler
+
+20
+00:03:31,000 --> 00:03:42,500
+oder ich gebe im Terminal ein gnome-volume-control ENTER
+
+21
+00:03:50,000 --> 00:03:55,500
+Lege ich eine Audio-CD in mein CD-Laufwerk wird sobald die Audio-CD erfasst wurde
+
+22
+00:03:56,000 --> 00:04:02,500
+automatisch das Programm totem gestartet um die CD abzuspielen, das demonstiere ich mal
+
+23
+00:04:03,000 --> 00:04:11,500
+Werfe die CD aus, lege sie wieder ein, das dauert ein bißchen
+
+24
+00:04:25,000 --> 00:04:28,500
+und da ist der Video-Player schon
+
+25
+00:04:30,000 --> 00:04:34,500
+Welches Programm automatisch gestartet wird kann ich einstellen
+
+26
+00:04:35,000 --> 00:04:42,500
+Ich gehe auf System - Einstellungen - Wechseldatenträger und -medien
+
+27
+00:04:43,000 --> 00:04:57,500
+oder ich gebe im Terminal ein gnome-volume-properties ENTER, klicke an Unterhaltungsmedien
+
+28
+00:04:59,000 --> 00:05:12,500
+Hier kann ich jetzt das Programm das gestartet wird einstellen, ersetzte mal totem durch gnome-cd den CD-Player
+
+29
+00:05:13,000 --> 00:05:16,500
+mal sehn was passiert, werfe die Audio-CD aus
+
+30
+00:05:17,000 --> 00:05:22,500
+indem ich die Audio-CD anklicke mit der rechten Maustaste und auf Auswerfen gehe
+
+31
+00:05:23,000 --> 00:05:27,500
+oder ich gebe im Terminal ein eject ENTER
+
+32
+00:05:30,000 --> 00:05:50,500
+lege die CD wieder ein, jetzt müsste der CD-Player erscheinen, ... jawohl
+
+33
+00:05:53,000 --> 00:05:59,500
+Diese Einstellung kann ich auch machen mit dem Konfigurationseditor gconf-editor
+
+34
+00:06:00,000 --> 00:06:05,500
+Wie er installiert wird, wird demonstriert im Screencast 001
+
+35
+00:06:06,000 --> 00:06:11,500
+Ich gehe auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+36
+00:06:12,000 --> 00:06:18,500
+Mache einen Doppelklick auf Desktop - Gnome - Volume_Manager
+
+37
+00:06:20,000 --> 00:06:29,500
+und ändere den Wert des Schlüssels autoplay_cda_command
+
+38
+00:06:30,000 --> 00:06:38,500
+mache einen Doppelklick auf den Wert und ändere wieder gnome-cd in totem ENTER
+
+39
+00:06:39,000 --> 00:06:42,500
+so wird beim Audio-CD einlegen wieder der Video-Player gestartet
+
+40
+00:06:45,000 --> 00:06:57,500
+so das wars für heute dann schon, viel Spaß beim Audio-CD hören, das dürfte kein Problem mehr sein denke ich, bis zum nächsten mal
